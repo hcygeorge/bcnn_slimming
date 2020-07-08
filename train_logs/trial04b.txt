@@ -1,0 +1,206 @@
+Batch: 48, LR: 0.01, Sparsity: False, Penalty: 0.0001, Patience: 10
+Use pretrained VGG feature extractor
+No checkpoint found.
+Use cuda: True
+Start training...
+Batch: 48, LR: 0.01, Sparsity: False, Penalty: 0.0001, Patience: 10
+Use pretrained VGG feature extractor
+No checkpoint found.
+Use cuda: True
+Start training...
+Time: 76.84 secs
+Epoch:0/149
+Accuracy(Train/Valid):0.95/1.81% Loss(Train/Valid):5.049/4.843
+Time: 62.09 secs
+Epoch:1/149
+Accuracy(Train/Valid):4.30/12.22% Loss(Train/Valid):4.092/5.341
+Time: 62.38 secs
+Epoch:2/149
+Accuracy(Train/Valid):26.08/35.21% Loss(Train/Valid):2.981/2.169
+Epoch:3/149
+Accuracy(Train/Valid):50.40/40.27% Loss(Train/Valid):1.933/1.794
+Epoch:4/149
+Accuracy(Train/Valid):66.18/45.46% Loss(Train/Valid):1.832/2.022
+Epoch:5/149
+Accuracy(Train/Valid):75.86/47.93% Loss(Train/Valid):1.001/2.131
+Epoch:6/149
+Accuracy(Train/Valid):80.95/49.76% Loss(Train/Valid):0.700/2.805
+Epoch:7/149
+Accuracy(Train/Valid):84.80/49.05% Loss(Train/Valid):0.843/1.276
+Epoch:8/149
+Accuracy(Train/Valid):88.44/51.48% Loss(Train/Valid):0.369/1.828
+Model saved.
+Epoch:9/149
+Accuracy(Train/Valid):89.86/49.52% Loss(Train/Valid):0.294/1.569
+Epoch:10/149
+Accuracy(Train/Valid):91.22/48.91% Loss(Train/Valid):0.851/1.768
+Epoch:11/149
+Accuracy(Train/Valid):91.94/53.50% Loss(Train/Valid):0.364/1.810
+Epoch:12/149
+Accuracy(Train/Valid):93.11/51.36% Loss(Train/Valid):0.381/1.453
+Epoch:13/149
+Accuracy(Train/Valid):93.59/51.66% Loss(Train/Valid):0.185/1.656
+Model saved.
+Epoch:14/149
+Accuracy(Train/Valid):94.49/51.35% Loss(Train/Valid):0.240/1.878
+Epoch:15/149
+Accuracy(Train/Valid):94.99/53.16% Loss(Train/Valid):0.034/1.363
+Epoch:16/149
+Accuracy(Train/Valid):95.98/53.04% Loss(Train/Valid):0.185/1.531
+Epoch:17/149
+Accuracy(Train/Valid):95.75/51.88% Loss(Train/Valid):0.098/2.117
+Epoch:18/149
+Accuracy(Train/Valid):95.83/53.87% Loss(Train/Valid):0.261/2.078
+Model saved.
+Epoch:19/149
+Accuracy(Train/Valid):96.13/51.16% Loss(Train/Valid):0.073/2.531
+Epoch:20/149
+Accuracy(Train/Valid):97.16/52.62% Loss(Train/Valid):0.086/1.743
+Epoch:21/149
+Accuracy(Train/Valid):96.73/51.92% Loss(Train/Valid):0.012/2.121
+Epoch:22/149
+Accuracy(Train/Valid):96.98/51.88% Loss(Train/Valid):0.019/3.197
+Epoch:23/149
+Accuracy(Train/Valid):96.40/48.83% Loss(Train/Valid):0.184/2.449
+Model saved.
+Epoch:24/149
+Accuracy(Train/Valid):96.85/52.90% Loss(Train/Valid):0.174/2.111
+Epoch:25/149
+Accuracy(Train/Valid):98.03/53.47% Loss(Train/Valid):0.194/1.698
+Epoch:26/149
+Accuracy(Train/Valid):96.86/52.33% Loss(Train/Valid):0.030/2.316
+Epoch:27/149
+Accuracy(Train/Valid):98.30/54.75% Loss(Train/Valid):0.001/1.780
+Epoch:28/149
+Accuracy(Train/Valid):98.25/50.67% Loss(Train/Valid):0.064/1.251
+Model saved.
+Epoch:29/149
+Accuracy(Train/Valid):98.43/52.85% Loss(Train/Valid):0.125/2.186
+Epoch:30/149
+Accuracy(Train/Valid):98.42/53.76% Loss(Train/Valid):0.038/1.841
+Epoch:31/149
+Accuracy(Train/Valid):98.47/53.81% Loss(Train/Valid):0.010/2.362
+Epoch:32/149
+Accuracy(Train/Valid):98.97/55.37% Loss(Train/Valid):0.009/1.187
+Epoch:33/149
+Accuracy(Train/Valid):98.43/50.45% Loss(Train/Valid):0.041/1.800
+Model saved.
+Epoch:34/149
+Accuracy(Train/Valid):98.35/55.11% Loss(Train/Valid):0.003/2.030
+Epoch:35/149
+Accuracy(Train/Valid):98.47/54.30% Loss(Train/Valid):0.008/1.584
+Epoch:36/149
+Accuracy(Train/Valid):99.03/53.97% Loss(Train/Valid):0.021/1.594
+Epoch:37/149
+Accuracy(Train/Valid):98.88/53.66% Loss(Train/Valid):0.002/2.987
+Epoch:38/149
+Accuracy(Train/Valid):98.57/52.74% Loss(Train/Valid):0.058/2.436
+Model saved.
+Epoch:39/149
+Accuracy(Train/Valid):98.83/51.02% Loss(Train/Valid):0.053/1.937
+Epoch:40/149
+Accuracy(Train/Valid):98.26/54.00% Loss(Train/Valid):0.130/2.428
+Epoch:41/149
+Accuracy(Train/Valid):98.97/54.33% Loss(Train/Valid):0.080/1.101
+Epoch:42/149
+Accuracy(Train/Valid):98.78/52.97% Loss(Train/Valid):0.007/3.959
+Epoch    43: reducing learning rate of group 0 to 1.0000e-03.
+Epoch:43/149
+Accuracy(Train/Valid):99.22/52.55% Loss(Train/Valid):0.022/3.520
+Epoch:44/149
+Accuracy(Train/Valid):99.47/55.70% Loss(Train/Valid):0.011/2.972
+Epoch:45/149
+Accuracy(Train/Valid):99.75/56.68% Loss(Train/Valid):0.000/3.167
+Epoch:46/149
+Accuracy(Train/Valid):99.93/56.94% Loss(Train/Valid):0.000/3.004
+Epoch:47/149
+Accuracy(Train/Valid):99.93/56.96% Loss(Train/Valid):0.003/3.184
+Epoch:48/149
+Accuracy(Train/Valid):99.95/57.39% Loss(Train/Valid):0.000/3.229
+Model saved.
+Epoch:49/149
+Accuracy(Train/Valid):99.98/57.37% Loss(Train/Valid):0.000/3.196
+Epoch:50/149
+Accuracy(Train/Valid):99.92/57.73% Loss(Train/Valid):0.000/2.535
+Epoch:51/149
+Accuracy(Train/Valid):99.95/57.63% Loss(Train/Valid):0.000/2.501
+Epoch:52/149
+Accuracy(Train/Valid):99.97/57.47% Loss(Train/Valid):0.007/2.524
+Epoch:53/149
+Accuracy(Train/Valid):99.98/57.53% Loss(Train/Valid):0.000/2.546
+Model saved.
+Epoch:54/149
+Accuracy(Train/Valid):99.97/57.59% Loss(Train/Valid):0.000/2.540
+Epoch:55/149
+Accuracy(Train/Valid):99.95/57.61% Loss(Train/Valid):0.000/2.615
+Epoch:56/149
+Accuracy(Train/Valid):99.98/57.71% Loss(Train/Valid):0.000/2.648
+Epoch:57/149
+Accuracy(Train/Valid):99.98/57.87% Loss(Train/Valid):0.000/2.655
+Epoch:58/149
+Accuracy(Train/Valid):100.00/57.92% Loss(Train/Valid):0.000/2.641
+Epoch:59/149
+Accuracy(Train/Valid):99.98/58.03% Loss(Train/Valid):0.000/2.652
+Epoch:60/149
+Accuracy(Train/Valid):100.00/58.09% Loss(Train/Valid):0.000/2.668
+Epoch:61/149
+Accuracy(Train/Valid):99.97/58.28% Loss(Train/Valid):0.000/2.549
+Epoch:62/149
+Accuracy(Train/Valid):99.98/58.28% Loss(Train/Valid):0.000/2.651
+Epoch:63/149
+Accuracy(Train/Valid):100.00/58.44% Loss(Train/Valid):0.000/2.661
+Model saved.
+Epoch:64/149
+Accuracy(Train/Valid):100.00/58.32% Loss(Train/Valid):0.000/2.658
+Epoch:65/149
+Accuracy(Train/Valid):99.97/58.34% Loss(Train/Valid):0.000/2.699
+Epoch:66/149
+Accuracy(Train/Valid):100.00/58.32% Loss(Train/Valid):0.000/2.702
+Epoch:67/149
+Accuracy(Train/Valid):100.00/58.37% Loss(Train/Valid):0.000/2.691
+Epoch:68/149
+Accuracy(Train/Valid):99.98/58.49% Loss(Train/Valid):0.000/2.741
+Epoch:69/149
+Accuracy(Train/Valid):100.00/58.54% Loss(Train/Valid):0.000/2.752
+Epoch:70/149
+Accuracy(Train/Valid):100.00/58.58% Loss(Train/Valid):0.000/2.758
+Epoch:71/149
+Accuracy(Train/Valid):100.00/58.58% Loss(Train/Valid):0.000/2.761
+Epoch:72/149
+Accuracy(Train/Valid):99.97/58.60% Loss(Train/Valid):0.000/2.731
+Epoch:73/149
+Accuracy(Train/Valid):100.00/58.65% Loss(Train/Valid):0.001/2.743
+Epoch:74/149
+Accuracy(Train/Valid):100.00/58.66% Loss(Train/Valid):0.000/2.743
+Epoch:75/149
+Accuracy(Train/Valid):100.00/58.63% Loss(Train/Valid):0.001/2.742
+Epoch:76/149
+Accuracy(Train/Valid):100.00/58.58% Loss(Train/Valid):0.000/2.726
+Epoch:77/149
+Accuracy(Train/Valid):99.98/58.63% Loss(Train/Valid):0.000/2.779
+Epoch:78/149
+Accuracy(Train/Valid):99.98/58.63% Loss(Train/Valid):0.000/2.761
+Epoch:79/149
+Accuracy(Train/Valid):99.98/58.77% Loss(Train/Valid):0.000/2.756
+Epoch:80/149
+Accuracy(Train/Valid):100.00/58.73% Loss(Train/Valid):0.000/2.762
+Epoch:81/149
+Accuracy(Train/Valid):100.00/58.72% Loss(Train/Valid):0.000/2.765
+Epoch:82/149
+Accuracy(Train/Valid):100.00/58.75% Loss(Train/Valid):0.000/2.775
+Epoch:83/149
+Accuracy(Train/Valid):100.00/58.75% Loss(Train/Valid):0.000/2.776
+Model saved.
+Epoch:84/149
+Accuracy(Train/Valid):100.00/58.72% Loss(Train/Valid):0.000/2.718
+Epoch:85/149
+Accuracy(Train/Valid):100.00/58.66% Loss(Train/Valid):0.000/2.750
+Epoch:86/149
+Accuracy(Train/Valid):99.98/58.84% Loss(Train/Valid):0.000/2.792
+Epoch:87/149
+Accuracy(Train/Valid):100.00/58.84% Loss(Train/Valid):0.000/2.784
+Epoch:88/149
+Accuracy(Train/Valid):100.00/58.70% Loss(Train/Valid):0.000/2.759
+Model saved.
+Epoch:89/149
+Accuracy(Train/Valid):100.00/58.66% Loss(Train/Valid):0.000/2.757

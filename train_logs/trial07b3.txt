@@ -1,0 +1,573 @@
+Create pretrained model with BN layer.
+No checkpoint found.
+Use cuda: True
+Start training...
+Time: 87.49 secs
+Epoch:0/199
+Accuracy(Train/Valid):4.65/25.15% Loss(Train/Valid):5.174/5.045
+Time: 74.46 secs
+Epoch:1/199
+Accuracy(Train/Valid):17.55/29.29% Loss(Train/Valid):4.862/4.775
+Time: 74.78 secs
+Epoch:2/199
+Accuracy(Train/Valid):26.03/28.29% Loss(Train/Valid):4.593/4.462
+Epoch:3/199
+Accuracy(Train/Valid):31.51/34.47% Loss(Train/Valid):4.255/4.188
+Model saved.
+Epoch:4/199
+Accuracy(Train/Valid):34.77/31.29% Loss(Train/Valid):4.082/3.967
+Epoch:5/199
+Accuracy(Train/Valid):36.22/26.51% Loss(Train/Valid):4.066/3.713
+Epoch:6/199
+Accuracy(Train/Valid):38.67/28.65% Loss(Train/Valid):3.606/4.308
+Epoch:7/199
+Accuracy(Train/Valid):39.36/20.18% Loss(Train/Valid):3.377/4.221
+Epoch:8/199
+Accuracy(Train/Valid):41.51/27.94% Loss(Train/Valid):3.195/3.802
+Epoch:9/199
+Accuracy(Train/Valid):43.18/34.95% Loss(Train/Valid):2.851/3.389
+Epoch:10/199
+Accuracy(Train/Valid):47.60/32.45% Loss(Train/Valid):2.817/3.002
+Epoch:11/199
+Accuracy(Train/Valid):49.43/40.32% Loss(Train/Valid):2.792/2.895
+Epoch:12/199
+Accuracy(Train/Valid):51.18/38.89% Loss(Train/Valid):2.529/2.773
+Epoch:13/199
+Accuracy(Train/Valid):53.89/45.20% Loss(Train/Valid):2.181/2.410
+Model saved.
+Epoch:14/199
+Accuracy(Train/Valid):57.89/43.10% Loss(Train/Valid):2.199/2.429
+Epoch:15/199
+Accuracy(Train/Valid):59.76/45.67% Loss(Train/Valid):2.024/2.560
+Epoch:16/199
+Accuracy(Train/Valid):61.26/44.03% Loss(Train/Valid):1.844/2.450
+Epoch:17/199
+Accuracy(Train/Valid):65.65/45.77% Loss(Train/Valid):1.953/2.586
+Epoch:18/199
+Accuracy(Train/Valid):69.15/53.92% Loss(Train/Valid):1.511/2.092
+Model saved.
+Epoch:19/199
+Accuracy(Train/Valid):71.62/52.16% Loss(Train/Valid):1.640/1.991
+Epoch:20/199
+Accuracy(Train/Valid):73.89/57.70% Loss(Train/Valid):1.434/1.747
+Epoch:21/199
+Accuracy(Train/Valid):77.01/55.94% Loss(Train/Valid):1.585/1.952
+Epoch:22/199
+Accuracy(Train/Valid):77.56/57.59% Loss(Train/Valid):1.309/1.600
+Epoch:23/199
+Accuracy(Train/Valid):79.26/60.11% Loss(Train/Valid):1.087/1.612
+Epoch:24/199
+Accuracy(Train/Valid):81.36/60.75% Loss(Train/Valid):1.122/1.582
+Epoch:25/199
+Accuracy(Train/Valid):80.33/47.77% Loss(Train/Valid):1.213/1.608
+Epoch:26/199
+Accuracy(Train/Valid):78.48/52.05% Loss(Train/Valid):1.102/1.435
+Epoch:27/199
+Accuracy(Train/Valid):79.96/59.53% Loss(Train/Valid):1.158/1.531
+Epoch:28/199
+Accuracy(Train/Valid):82.63/62.27% Loss(Train/Valid):1.004/1.251
+Model saved.
+Epoch:29/199
+Accuracy(Train/Valid):84.47/55.28% Loss(Train/Valid):0.842/1.552
+Epoch:30/199
+Accuracy(Train/Valid):86.00/61.05% Loss(Train/Valid):0.846/1.050
+Epoch:31/199
+Accuracy(Train/Valid):87.87/66.15% Loss(Train/Valid):0.759/1.001
+Epoch:32/199
+Accuracy(Train/Valid):90.57/65.74% Loss(Train/Valid):0.859/1.022
+Epoch:33/199
+Accuracy(Train/Valid):92.36/69.42% Loss(Train/Valid):0.672/0.873
+Model saved.
+Epoch:34/199
+Accuracy(Train/Valid):93.16/68.97% Loss(Train/Valid):0.535/0.791
+Epoch:35/199
+Accuracy(Train/Valid):94.01/68.74% Loss(Train/Valid):0.460/0.791
+Epoch:36/199
+Accuracy(Train/Valid):94.13/68.81% Loss(Train/Valid):0.579/0.813
+Epoch:37/199
+Accuracy(Train/Valid):94.56/69.81% Loss(Train/Valid):0.412/0.734
+Epoch:38/199
+Accuracy(Train/Valid):95.23/66.40% Loss(Train/Valid):0.489/0.910
+Model saved.
+Epoch:39/199
+Accuracy(Train/Valid):94.98/69.59% Loss(Train/Valid):0.420/0.757
+Epoch:40/199
+Accuracy(Train/Valid):95.10/69.00% Loss(Train/Valid):0.431/1.044
+Epoch:41/199
+Accuracy(Train/Valid):95.86/68.40% Loss(Train/Valid):0.332/0.645
+Epoch:42/199
+Accuracy(Train/Valid):96.10/69.69% Loss(Train/Valid):0.330/0.846
+Epoch:43/199
+Accuracy(Train/Valid):93.24/51.73% Loss(Train/Valid):0.776/1.514
+Model saved.
+Epoch:44/199
+Accuracy(Train/Valid):84.28/54.95% Loss(Train/Valid):0.704/1.415
+Epoch:45/199
+Accuracy(Train/Valid):86.24/56.47% Loss(Train/Valid):0.696/1.269
+Epoch:46/199
+Accuracy(Train/Valid):88.34/57.82% Loss(Train/Valid):0.594/1.077
+Epoch:47/199
+Accuracy(Train/Valid):91.36/56.61% Loss(Train/Valid):0.470/1.219
+Epoch:48/199
+Accuracy(Train/Valid):92.34/65.74% Loss(Train/Valid):0.595/0.829
+Model saved.
+Epoch:49/199
+Accuracy(Train/Valid):94.94/65.72% Loss(Train/Valid):0.362/1.169
+Epoch:50/199
+Accuracy(Train/Valid):95.06/69.05% Loss(Train/Valid):0.345/0.744
+Epoch:51/199
+Accuracy(Train/Valid):96.51/67.14% Loss(Train/Valid):0.341/0.911
+Epoch:52/199
+Accuracy(Train/Valid):97.45/69.54% Loss(Train/Valid):0.294/0.869
+Epoch    53: reducing learning rate of group 0 to 1.0000e-02.
+Epoch:53/199
+Accuracy(Train/Valid):98.38/68.92% Loss(Train/Valid):0.247/0.785
+Epoch:54/199
+Accuracy(Train/Valid):98.88/73.02% Loss(Train/Valid):0.200/0.633
+Epoch:55/199
+Accuracy(Train/Valid):99.40/73.09% Loss(Train/Valid):0.190/0.636
+Epoch:56/199
+Accuracy(Train/Valid):99.43/73.32% Loss(Train/Valid):0.220/0.620
+Epoch:57/199
+Accuracy(Train/Valid):99.40/73.54% Loss(Train/Valid):0.185/0.634
+Epoch:58/199
+Accuracy(Train/Valid):99.58/73.58% Loss(Train/Valid):0.217/0.619
+Model saved.
+Epoch:59/199
+Accuracy(Train/Valid):99.60/73.32% Loss(Train/Valid):0.149/0.654
+Epoch:60/199
+Accuracy(Train/Valid):99.63/73.71% Loss(Train/Valid):0.185/0.642
+Epoch:61/199
+Accuracy(Train/Valid):99.63/73.70% Loss(Train/Valid):0.144/0.630
+Epoch:62/199
+Accuracy(Train/Valid):99.67/73.94% Loss(Train/Valid):0.167/0.617
+Epoch:63/199
+Accuracy(Train/Valid):99.65/73.94% Loss(Train/Valid):0.202/0.646
+Model saved.
+Epoch:64/199
+Accuracy(Train/Valid):99.75/73.82% Loss(Train/Valid):0.242/0.629
+Epoch:65/199
+Accuracy(Train/Valid):99.80/73.82% Loss(Train/Valid):0.212/0.632
+Epoch:66/199
+Accuracy(Train/Valid):99.75/73.78% Loss(Train/Valid):0.173/0.631
+Epoch:67/199
+Accuracy(Train/Valid):99.77/73.85% Loss(Train/Valid):0.150/0.623
+Epoch:68/199
+Accuracy(Train/Valid):99.77/73.89% Loss(Train/Valid):0.184/0.633
+Model saved.
+Epoch:69/199
+Accuracy(Train/Valid):99.77/73.73% Loss(Train/Valid):0.149/0.620
+Epoch:70/199
+Accuracy(Train/Valid):99.83/74.01% Loss(Train/Valid):0.244/0.610
+Epoch:71/199
+Accuracy(Train/Valid):99.82/73.92% Loss(Train/Valid):0.164/0.630
+Epoch:72/199
+Accuracy(Train/Valid):99.83/74.04% Loss(Train/Valid):0.168/0.619
+Epoch:73/199
+Accuracy(Train/Valid):99.82/73.87% Loss(Train/Valid):0.167/0.621
+Model saved.
+Epoch:74/199
+Accuracy(Train/Valid):99.72/73.87% Loss(Train/Valid):0.180/0.650
+Epoch:75/199
+Accuracy(Train/Valid):99.82/73.92% Loss(Train/Valid):0.167/0.622
+Epoch:76/199
+Accuracy(Train/Valid):99.87/73.78% Loss(Train/Valid):0.155/0.626
+Epoch:77/199
+Accuracy(Train/Valid):99.90/73.85% Loss(Train/Valid):0.135/0.626
+Epoch:78/199
+Accuracy(Train/Valid):99.87/73.92% Loss(Train/Valid):0.119/0.615
+Model saved.
+Epoch:79/199
+Accuracy(Train/Valid):99.90/73.73% Loss(Train/Valid):0.216/0.624
+Epoch:80/199
+Accuracy(Train/Valid):99.88/73.89% Loss(Train/Valid):0.180/0.627
+Epoch:81/199
+Accuracy(Train/Valid):99.95/73.71% Loss(Train/Valid):0.153/0.626
+Epoch:82/199
+Accuracy(Train/Valid):99.93/73.61% Loss(Train/Valid):0.162/0.623
+Epoch:83/199
+Accuracy(Train/Valid):99.92/73.56% Loss(Train/Valid):0.132/0.629
+Model saved.
+Epoch:84/199
+Accuracy(Train/Valid):99.90/73.39% Loss(Train/Valid):0.162/0.611
+Epoch:85/199
+Accuracy(Train/Valid):99.95/73.61% Loss(Train/Valid):0.187/0.631
+Epoch:86/199
+Accuracy(Train/Valid):99.93/73.61% Loss(Train/Valid):0.141/0.603
+Epoch:87/199
+Accuracy(Train/Valid):99.95/73.47% Loss(Train/Valid):0.185/0.615
+Epoch    88: reducing learning rate of group 0 to 1.0000e-03.
+Epoch:88/199
+Accuracy(Train/Valid):99.93/73.39% Loss(Train/Valid):0.150/0.618
+Model saved.
+Epoch:89/199
+Accuracy(Train/Valid):99.93/73.47% Loss(Train/Valid):0.136/0.610
+Epoch:90/199
+Accuracy(Train/Valid):99.95/73.52% Loss(Train/Valid):0.152/0.612
+Epoch:91/199
+Accuracy(Train/Valid):99.98/73.47% Loss(Train/Valid):0.156/0.621
+Epoch:92/199
+Accuracy(Train/Valid):100.00/73.35% Loss(Train/Valid):0.136/0.609
+Epoch:93/199
+Accuracy(Train/Valid):99.97/73.37% Loss(Train/Valid):0.138/0.608
+Model saved.
+Epoch:94/199
+Accuracy(Train/Valid):99.97/73.46% Loss(Train/Valid):0.129/0.608
+Epoch:95/199
+Accuracy(Train/Valid):99.98/73.46% Loss(Train/Valid):0.142/0.609
+Epoch:96/199
+Accuracy(Train/Valid):99.98/73.42% Loss(Train/Valid):0.149/0.613
+Epoch:97/199
+Accuracy(Train/Valid):99.98/73.30% Loss(Train/Valid):0.154/0.606
+Epoch:98/199
+Accuracy(Train/Valid):99.98/73.33% Loss(Train/Valid):0.157/0.612
+Model saved.
+Epoch:99/199
+Accuracy(Train/Valid):99.93/73.54% Loss(Train/Valid):0.151/0.607
+Epoch:100/199
+Accuracy(Train/Valid):99.97/73.33% Loss(Train/Valid):0.169/0.611
+Epoch:101/199
+Accuracy(Train/Valid):99.97/73.33% Loss(Train/Valid):0.115/0.611
+Epoch:102/199
+Accuracy(Train/Valid):100.00/73.14% Loss(Train/Valid):0.157/0.622
+Epoch:103/199
+Accuracy(Train/Valid):99.97/73.35% Loss(Train/Valid):0.127/0.614
+Epoch   104: reducing learning rate of group 0 to 1.0000e-04.
+Model saved.
+Epoch:104/199
+Accuracy(Train/Valid):99.93/73.35% Loss(Train/Valid):0.196/0.623
+Epoch:105/199
+Accuracy(Train/Valid):99.95/73.32% Loss(Train/Valid):0.162/0.620
+Epoch:106/199
+Accuracy(Train/Valid):99.95/73.20% Loss(Train/Valid):0.166/0.603
+Start pruning...
+Create pretrained model with BN layer.
+Loaded trained model: 'D:/model/bestmodel0525_trial07b3.pkl'
+Channels pruned: 20.0%
+Pruning threshold: 0.0168
+Test model before pruning.
+
+Test accuracy: 4290/5794 (74.04%)
+
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 28
+layer index: 6 	 total channel: 64 	 remaining channel: 60
+layer index: 10 	 total channel: 128 	 remaining channel: 104
+layer index: 13 	 total channel: 128 	 remaining channel: 123
+layer index: 17 	 total channel: 256 	 remaining channel: 234
+layer index: 20 	 total channel: 256 	 remaining channel: 252
+layer index: 23 	 total channel: 256 	 remaining channel: 255
+layer index: 27 	 total channel: 512 	 remaining channel: 495
+layer index: 30 	 total channel: 512 	 remaining channel: 446
+layer index: 33 	 total channel: 512 	 remaining channel: 489
+layer index: 37 	 total channel: 512 	 remaining channel: 359
+layer index: 40 	 total channel: 512 	 remaining channel: 377
+layer index: 43 	 total channel: 512 	 remaining channel: 157
+Make real prune...
+Create model backbone by cfg.
+Initialize model parameters.
+Saving model...
+Filepaths: ./model/bestmodel0525_trial07b3_pruned20.pkl/./model/checkpoint0525_trial07b3_pruned20.pkl
+Finish pruning.
+
+Start pruning...
+Create pretrained model with BN layer.
+Loaded trained model: 'D:/model/bestmodel0525_trial07b3.pkl'
+Channels pruned: 40.0%
+Pruning threshold: 0.2037
+Test model before pruning.
+
+Test accuracy: 4290/5794 (74.04%)
+
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 24
+layer index: 6 	 total channel: 64 	 remaining channel: 58
+layer index: 10 	 total channel: 128 	 remaining channel: 89
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 193
+layer index: 20 	 total channel: 256 	 remaining channel: 221
+layer index: 23 	 total channel: 256 	 remaining channel: 253
+layer index: 27 	 total channel: 512 	 remaining channel: 427
+layer index: 30 	 total channel: 512 	 remaining channel: 196
+layer index: 33 	 total channel: 512 	 remaining channel: 437
+layer index: 37 	 total channel: 512 	 remaining channel: 247
+layer index: 40 	 total channel: 512 	 remaining channel: 269
+layer index: 43 	 total channel: 512 	 remaining channel: 0
+Make real prune...
+Start pruning...
+Create pretrained model with BN layer.
+Loaded trained model: 'D:/model/bestmodel0525_trial07b3.pkl'
+Channels pruned: 60.0%
+Pruning threshold: 0.2774
+Test model before pruning.
+
+Test accuracy: 4290/5794 (74.04%)
+
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 23
+layer index: 6 	 total channel: 64 	 remaining channel: 51
+layer index: 10 	 total channel: 128 	 remaining channel: 72
+layer index: 13 	 total channel: 128 	 remaining channel: 111
+layer index: 17 	 total channel: 256 	 remaining channel: 115
+layer index: 20 	 total channel: 256 	 remaining channel: 126
+layer index: 23 	 total channel: 256 	 remaining channel: 227
+layer index: 27 	 total channel: 512 	 remaining channel: 286
+layer index: 30 	 total channel: 512 	 remaining channel: 53
+layer index: 33 	 total channel: 512 	 remaining channel: 310
+layer index: 37 	 total channel: 512 	 remaining channel: 139
+layer index: 40 	 total channel: 512 	 remaining channel: 176
+layer index: 43 	 total channel: 512 	 remaining channel: 0
+Make real prune...
+Start pruning...
+Create pretrained model with BN layer.
+Loaded trained model: 'D:/model/bestmodel0525_trial07b3.pkl'
+Channels pruned: 30.0%
+Pruning threshold: 0.1421
+Test model before pruning.
+
+Test accuracy: 4290/5794 (74.04%)
+
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 24
+layer index: 6 	 total channel: 64 	 remaining channel: 60
+layer index: 10 	 total channel: 128 	 remaining channel: 102
+layer index: 13 	 total channel: 128 	 remaining channel: 122
+layer index: 17 	 total channel: 256 	 remaining channel: 226
+layer index: 20 	 total channel: 256 	 remaining channel: 251
+layer index: 23 	 total channel: 256 	 remaining channel: 255
+layer index: 27 	 total channel: 512 	 remaining channel: 483
+layer index: 30 	 total channel: 512 	 remaining channel: 337
+layer index: 33 	 total channel: 512 	 remaining channel: 475
+layer index: 37 	 total channel: 512 	 remaining channel: 300
+layer index: 40 	 total channel: 512 	 remaining channel: 321
+layer index: 43 	 total channel: 512 	 remaining channel: 0
+Make real prune...
+Start pruning...
+Create pretrained model with BN layer.
+Loaded trained model: 'D:/model/bestmodel0525_trial07b3.pkl'
+Channels pruned: 25.0%
+Pruning threshold: 0.0792
+Test model before pruning.
+
+Test accuracy: 4290/5794 (74.04%)
+
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 26
+layer index: 6 	 total channel: 64 	 remaining channel: 60
+layer index: 10 	 total channel: 128 	 remaining channel: 104
+layer index: 13 	 total channel: 128 	 remaining channel: 123
+layer index: 17 	 total channel: 256 	 remaining channel: 232
+layer index: 20 	 total channel: 256 	 remaining channel: 252
+layer index: 23 	 total channel: 256 	 remaining channel: 255
+layer index: 27 	 total channel: 512 	 remaining channel: 494
+layer index: 30 	 total channel: 512 	 remaining channel: 429
+layer index: 33 	 total channel: 512 	 remaining channel: 488
+layer index: 37 	 total channel: 512 	 remaining channel: 341
+layer index: 40 	 total channel: 512 	 remaining channel: 363
+layer index: 43 	 total channel: 512 	 remaining channel: 0
+Make real prune...
+Start pruning...
+Create pretrained model with BN layer.
+Loaded trained model: 'D:/model/bestmodel0525_trial07b3.pkl'
+Channels pruned: 22.0%
+Pruning threshold: 0.0219
+Test model before pruning.
+
+Test accuracy: 4290/5794 (74.04%)
+
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 28
+layer index: 6 	 total channel: 64 	 remaining channel: 60
+layer index: 10 	 total channel: 128 	 remaining channel: 104
+layer index: 13 	 total channel: 128 	 remaining channel: 123
+layer index: 17 	 total channel: 256 	 remaining channel: 234
+layer index: 20 	 total channel: 256 	 remaining channel: 252
+layer index: 23 	 total channel: 256 	 remaining channel: 255
+layer index: 27 	 total channel: 512 	 remaining channel: 495
+layer index: 30 	 total channel: 512 	 remaining channel: 445
+layer index: 33 	 total channel: 512 	 remaining channel: 489
+layer index: 37 	 total channel: 512 	 remaining channel: 359
+layer index: 40 	 total channel: 512 	 remaining channel: 377
+layer index: 43 	 total channel: 512 	 remaining channel: 73
+Make real prune...
+Create model backbone by cfg.
+Initialize model parameters.
+Saving model...
+Filepaths: ./model/bestmodel0525_trial07b3_pruned22.pkl/./model/checkpoint0525_trial07b3_pruned22.pkl
+Finish pruning.
+
+Start pruning...
+Create pretrained model with BN layer.
+Loaded trained model: 'D:/model/bestmodel0525_trial07b3.pkl'
+Channels pruned: 23.0%
+Pruning threshold: 0.0283
+Test model before pruning.
+
+Test accuracy: 4290/5794 (74.04%)
+
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 27
+layer index: 6 	 total channel: 64 	 remaining channel: 60
+layer index: 10 	 total channel: 128 	 remaining channel: 104
+layer index: 13 	 total channel: 128 	 remaining channel: 123
+layer index: 17 	 total channel: 256 	 remaining channel: 234
+layer index: 20 	 total channel: 256 	 remaining channel: 252
+layer index: 23 	 total channel: 256 	 remaining channel: 255
+layer index: 27 	 total channel: 512 	 remaining channel: 495
+layer index: 30 	 total channel: 512 	 remaining channel: 444
+layer index: 33 	 total channel: 512 	 remaining channel: 489
+layer index: 37 	 total channel: 512 	 remaining channel: 358
+layer index: 40 	 total channel: 512 	 remaining channel: 377
+layer index: 43 	 total channel: 512 	 remaining channel: 34
+Make real prune...
+Create model backbone by cfg.
+Initialize model parameters.
+Saving model...
+Filepaths: ./model/bestmodel0525_trial07b3_pruned23.pkl/./model/checkpoint0525_trial07b3_pruned23.pkl
+Finish pruning.
+
+Create model backbone by cfg.
+Load pruned model: D:/model/bestmodel0525_trial07b3_pruned22.pkl
+Use cuda: True
+Start training...
+Time: 75.17 secs
+Epoch:0/79
+Accuracy(Train/Valid):90.27/69.99% Loss(Train/Valid):2.365/2.055
+Time: 61.70 secs
+Epoch:1/79
+Accuracy(Train/Valid):98.05/71.87% Loss(Train/Valid):2.094/1.910
+Time: 61.35 secs
+Epoch:2/79
+Accuracy(Train/Valid):98.43/71.23% Loss(Train/Valid):1.804/1.700
+Epoch:3/79
+Accuracy(Train/Valid):99.02/72.02% Loss(Train/Valid):1.504/1.503
+Model saved.
+Epoch:4/79
+Accuracy(Train/Valid):99.08/70.11% Loss(Train/Valid):1.261/1.456
+Epoch:5/79
+Accuracy(Train/Valid):99.17/70.69% Loss(Train/Valid):1.160/1.233
+Epoch:6/79
+Accuracy(Train/Valid):99.33/70.90% Loss(Train/Valid):0.883/1.294
+Epoch:7/79
+Accuracy(Train/Valid):98.82/66.21% Loss(Train/Valid):0.909/1.439
+Epoch:8/79
+Accuracy(Train/Valid):96.63/59.86% Loss(Train/Valid):1.030/1.601
+Model saved.
+Epoch:9/79
+Accuracy(Train/Valid):89.76/55.26% Loss(Train/Valid):1.017/1.507
+Epoch:10/79
+Accuracy(Train/Valid):90.82/58.51% Loss(Train/Valid):0.825/1.342
+Epoch:11/79
+Accuracy(Train/Valid):91.76/52.97% Loss(Train/Valid):0.794/1.448
+Epoch:12/79
+Accuracy(Train/Valid):90.87/62.12% Loss(Train/Valid):0.831/1.227
+Epoch:13/79
+Accuracy(Train/Valid):92.98/59.41% Loss(Train/Valid):0.680/1.264
+Model saved.
+Epoch:14/79
+Accuracy(Train/Valid):93.71/56.59% Loss(Train/Valid):0.601/1.399
+Epoch:15/79
+Accuracy(Train/Valid):94.63/65.00% Loss(Train/Valid):0.456/1.151
+Epoch:16/79
+Accuracy(Train/Valid):96.80/66.78% Loss(Train/Valid):0.475/1.032
+Epoch:17/79
+Accuracy(Train/Valid):98.18/69.07% Loss(Train/Valid):0.401/1.006
+Epoch:18/79
+Accuracy(Train/Valid):98.16/70.59% Loss(Train/Valid):0.296/0.941
+Epoch    19: reducing learning rate of group 0 to 1.0000e-02.
+Model saved.
+Epoch:19/79
+Accuracy(Train/Valid):98.26/66.52% Loss(Train/Valid):0.373/0.875
+Epoch:20/79
+Accuracy(Train/Valid):99.23/71.80% Loss(Train/Valid):0.274/0.826
+Epoch:21/79
+Accuracy(Train/Valid):99.50/73.02% Loss(Train/Valid):0.241/0.818
+Epoch:22/79
+Accuracy(Train/Valid):99.62/73.27% Loss(Train/Valid):0.257/0.823
+Epoch:23/79
+Accuracy(Train/Valid):99.67/73.21% Loss(Train/Valid):0.232/0.808
+Epoch:24/79
+Accuracy(Train/Valid):99.75/73.39% Loss(Train/Valid):0.235/0.808
+Epoch:25/79
+Accuracy(Train/Valid):99.73/73.11% Loss(Train/Valid):0.242/0.803
+Epoch:26/79
+Accuracy(Train/Valid):99.80/73.09% Loss(Train/Valid):0.219/0.818
+Epoch:27/79
+Accuracy(Train/Valid):99.92/73.01% Loss(Train/Valid):0.221/0.795
+Epoch:28/79
+Accuracy(Train/Valid):99.92/72.68% Loss(Train/Valid):0.230/0.804
+Model saved.
+Epoch:29/79
+Accuracy(Train/Valid):99.87/72.63% Loss(Train/Valid):0.216/0.800
+Epoch:30/79
+Accuracy(Train/Valid):99.85/72.45% Loss(Train/Valid):0.266/0.795
+Epoch:31/79
+Accuracy(Train/Valid):99.90/72.35% Loss(Train/Valid):0.205/0.804
+Epoch:32/79
+Accuracy(Train/Valid):99.92/72.49% Loss(Train/Valid):0.229/0.787
+Epoch:33/79
+Accuracy(Train/Valid):99.92/72.13% Loss(Train/Valid):0.201/0.796
+Model saved.
+Epoch:34/79
+Accuracy(Train/Valid):99.95/72.11% Loss(Train/Valid):0.215/0.791
+Epoch:35/79
+Accuracy(Train/Valid):99.95/72.51% Loss(Train/Valid):0.199/0.791
+Epoch:36/79
+Accuracy(Train/Valid):99.98/72.47% Loss(Train/Valid):0.217/0.786
+Epoch:37/79
+Accuracy(Train/Valid):99.97/71.99% Loss(Train/Valid):0.212/0.788
+Epoch:38/79
+Accuracy(Train/Valid):99.93/72.07% Loss(Train/Valid):0.224/0.783
+Model saved.
+Epoch:39/79
+Accuracy(Train/Valid):99.98/72.16% Loss(Train/Valid):0.205/0.784
+Epoch    40: reducing learning rate of group 0 to 1.0000e-03.
+Epoch:40/79
+Accuracy(Train/Valid):99.97/72.04% Loss(Train/Valid):0.219/0.787
+Epoch:41/79
+Accuracy(Train/Valid):99.97/72.16% Loss(Train/Valid):0.194/0.781
+Epoch:42/79
+Accuracy(Train/Valid):99.97/72.35% Loss(Train/Valid):0.239/0.785
+Epoch:43/79
+Accuracy(Train/Valid):99.97/72.23% Loss(Train/Valid):0.188/0.786
+Model saved.
+Epoch:44/79
+Accuracy(Train/Valid):99.95/72.26% Loss(Train/Valid):0.208/0.783
+Epoch:45/79
+Accuracy(Train/Valid):99.98/72.14% Loss(Train/Valid):0.205/0.791
+Batch: 48, LR: 0.05, Sparsity: True, Penalty: 0.0001, Patience: 10
+Create pretrained model with BN layer.
+Load the checkpoint
+Batch: 48, LR: 0.05, Sparsity: True, Penalty: 0.0001, Patience: 10
+Create model backbone by cfg.
+Load pruned model: D:/model/bestmodel0525_trial07b3_pruned20.pkl
+Use cuda: True
+Start training...
+Time: 77.76 secs
+Epoch:0/99
+Accuracy(Train/Valid):98.73/71.45% Loss(Train/Valid):1.092/1.323
+Time: 62.59 secs
+Epoch:1/99
+Accuracy(Train/Valid):99.08/73.51% Loss(Train/Valid):1.021/1.169
+Time: 62.77 secs
+Epoch:2/99
+Accuracy(Train/Valid):99.28/72.73% Loss(Train/Valid):0.986/1.267
+Epoch:3/99
+Accuracy(Train/Valid):98.88/72.75% Loss(Train/Valid):0.900/1.063
+Epoch:4/99
+Accuracy(Train/Valid):99.18/74.20% Loss(Train/Valid):0.870/1.047
+Epoch:5/99
+Accuracy(Train/Valid):99.22/74.39% Loss(Train/Valid):0.635/1.010
+Epoch:6/99
+Accuracy(Train/Valid):99.47/74.04% Loss(Train/Valid):0.700/1.036
+Epoch:7/99
+Accuracy(Train/Valid):99.48/74.25% Loss(Train/Valid):0.648/0.935
+Epoch:8/99
+Accuracy(Train/Valid):99.58/74.89% Loss(Train/Valid):0.597/0.903
+Model saved.
+Epoch:9/99
+Accuracy(Train/Valid):99.42/74.44% Loss(Train/Valid):0.575/0.884
+Epoch:10/99
+Accuracy(Train/Valid):99.65/74.46% Loss(Train/Valid):0.553/0.893
+Epoch:11/99
+Accuracy(Train/Valid):99.57/74.77% Loss(Train/Valid):0.473/0.865

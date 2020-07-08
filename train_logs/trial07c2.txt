@@ -1,0 +1,239 @@
+Check if label start from 0: True
+Dataset Path: C:/Dataset/StandfordCar
+Number of Class: 196
+Train Data: 8144
+Test Data: 8041
+Create pretrained model with BN layer.
+No checkpoint found.
+Use cuda: True
+Start training...
+Time: 111.85 secs
+Epoch:0/99
+Accuracy(Train/Valid):0.58/0.60% Loss(Train/Valid):5.301/5.329
+Time: 99.53 secs
+Epoch:1/99
+Accuracy(Train/Valid):0.45/0.85% Loss(Train/Valid):5.319/5.339
+Time: 98.94 secs
+Epoch:2/99
+Accuracy(Train/Valid):0.60/0.53% Loss(Train/Valid):5.310/5.220
+Epoch:3/99
+Accuracy(Train/Valid):0.54/0.85% Loss(Train/Valid):5.264/5.261
+Model saved.
+Epoch:4/99
+Accuracy(Train/Valid):0.44/0.56% Loss(Train/Valid):5.321/5.287
+Epoch:5/99
+Accuracy(Train/Valid):0.59/0.85% Loss(Train/Valid):5.312/5.241
+Epoch:6/99
+Accuracy(Train/Valid):0.58/0.85% Loss(Train/Valid):5.305/5.262
+Epoch:7/99
+Accuracy(Train/Valid):0.64/0.55% Loss(Train/Valid):5.323/5.254
+Epoch:8/99
+Accuracy(Train/Valid):0.68/0.56% Loss(Train/Valid):5.336/5.283
+Model saved.
+Epoch:9/99
+Accuracy(Train/Valid):0.59/0.85% Loss(Train/Valid):5.272/5.282
+Epoch:10/99
+Accuracy(Train/Valid):0.55/0.85% Loss(Train/Valid):5.343/5.247
+Epoch:11/99
+Accuracy(Train/Valid):0.54/0.56% Loss(Train/Valid):5.288/5.236
+Epoch:12/99
+Accuracy(Train/Valid):0.65/0.56% Loss(Train/Valid):5.347/5.225
+Epoch:13/99
+Accuracy(Train/Valid):0.70/0.53% Loss(Train/Valid):5.294/5.265
+Model saved.
+Epoch:14/99
+Accuracy(Train/Valid):0.56/0.57% Loss(Train/Valid):5.310/5.325
+Epoch:15/99
+Accuracy(Train/Valid):0.49/0.85% Loss(Train/Valid):5.299/5.327
+Epoch:16/99
+Accuracy(Train/Valid):0.53/0.85% Loss(Train/Valid):5.286/5.344
+Epoch    17: reducing learning rate of group 0 to 5.0000e-02.
+Epoch:17/99
+Accuracy(Train/Valid):0.52/0.55% Loss(Train/Valid):5.313/5.213
+Epoch:18/99
+Accuracy(Train/Valid):0.70/0.85% Loss(Train/Valid):5.291/5.222
+Model saved.
+Epoch:19/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.307/5.228
+Epoch:20/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.264/5.237
+Epoch:21/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.268/5.240
+Epoch:22/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.272/5.241
+Epoch:23/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.273/5.241
+Model saved.
+Epoch:24/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.254/5.244
+Epoch:25/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.233/5.247
+Epoch:26/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.269/5.247
+Epoch:27/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.279/5.248
+Epoch:28/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.297/5.245
+Model saved.
+Epoch:29/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.262/5.244
+Epoch:30/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.313/5.246
+Epoch:31/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.279/5.248
+Epoch:32/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.319/5.246
+Epoch    33: reducing learning rate of group 0 to 5.0000e-03.
+Epoch:33/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.274/5.246
+Model saved.
+Epoch:34/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.287/5.246
+Epoch:35/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.235/5.246
+Epoch:36/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.276/5.246
+Epoch:37/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.243/5.246
+Epoch:38/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.332/5.246
+Model saved.
+Epoch:39/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.277/5.246
+Epoch:40/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.260/5.246
+Epoch:41/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.263/5.246
+Epoch:42/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.257/5.246
+Epoch:43/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.258/5.247
+Model saved.
+Epoch:44/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.274/5.246
+Epoch:45/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.284/5.247
+Epoch:46/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.274/5.247
+Epoch:47/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.262/5.247
+Epoch:48/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.292/5.246
+Epoch    49: reducing learning rate of group 0 to 5.0000e-04.
+Model saved.
+Epoch:49/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.274/5.247
+Epoch:50/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.241/5.247
+Epoch:51/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.267/5.247
+Epoch:52/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.298/5.247
+Epoch:53/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.294/5.247
+Model saved.
+Epoch:54/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.274/5.247
+Epoch:55/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.279/5.247
+Epoch:56/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.325/5.247
+Epoch:57/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.269/5.247
+Epoch:58/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.263/5.247
+Model saved.
+Epoch:59/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.303/5.247
+Epoch:60/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.305/5.247
+Epoch:61/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.269/5.247
+Epoch:62/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.246/5.247
+Epoch:63/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.276/5.247
+Model saved.
+Epoch:64/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.272/5.247
+Epoch    65: reducing learning rate of group 0 to 5.0000e-05.
+Epoch:65/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.260/5.247
+Epoch:66/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.251/5.247
+Epoch:67/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.258/5.247
+Epoch:68/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.293/5.247
+Model saved.
+Epoch:69/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.281/5.247
+Epoch:70/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.284/5.247
+Epoch:71/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.275/5.247
+Epoch:72/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.262/5.247
+Epoch:73/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.256/5.247
+Model saved.
+Epoch:74/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.289/5.247
+Epoch:75/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.264/5.247
+Epoch:76/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.277/5.247
+Epoch:77/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.268/5.247
+Epoch:78/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.262/5.247
+Model saved.
+Epoch:79/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.269/5.247
+Epoch:80/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.303/5.247
+Epoch    81: reducing learning rate of group 0 to 5.0000e-06.
+Epoch:81/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.279/5.247
+Epoch:82/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.299/5.247
+Epoch:83/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.271/5.247
+Model saved.
+Epoch:84/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.271/5.247
+Epoch:85/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.260/5.247
+Epoch:86/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.301/5.247
+Epoch:87/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.292/5.247
+Epoch:88/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.262/5.247
+Model saved.
+Epoch:89/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.289/5.247
+Epoch:90/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.272/5.247
+Epoch:91/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.256/5.247
+Epoch:92/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.276/5.247
+Epoch:93/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.256/5.247
+Model saved.
+Epoch:94/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.310/5.247
+Epoch:95/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.282/5.247
+Epoch:96/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.244/5.247
+Epoch    97: reducing learning rate of group 0 to 1.0000e-06.
+Epoch:97/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.264/5.247
+Epoch:98/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.253/5.247
+Model saved.
+Epoch:99/99
+Accuracy(Train/Valid):0.83/0.85% Loss(Train/Valid):5.302/5.247
+Time: 165.67 mins

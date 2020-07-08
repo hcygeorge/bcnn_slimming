@@ -1,0 +1,410 @@
+Create pretrained model with BN layer.
+Loaded checkpoint: 'C:/works/PythonCode/BCNNSlimming/model/best_model0416trial07c.pkl' (epoch 44) Prec1: 86.543962
+Channels pruned: 20.0%
+Pruning threshold: 0.1596
+Check if label start from 0: True
+Dataset Path: C:/Dataset/StandfordCar
+Number of class: 196
+Train data: 8144
+Test data: 8041
+Test model before pruning.
+
+Test accuracy: 6959/8041 (86.5%)
+
+layer index: 3 	 total channel: 64 	 remaining channel: 22
+layer index: 6 	 total channel: 64 	 remaining channel: 51
+layer index: 10 	 total channel: 128 	 remaining channel: 72
+layer index: 13 	 total channel: 128 	 remaining channel: 117
+layer index: 17 	 total channel: 256 	 remaining channel: 149
+layer index: 20 	 total channel: 256 	 remaining channel: 169
+layer index: 23 	 total channel: 256 	 remaining channel: 249
+layer index: 27 	 total channel: 512 	 remaining channel: 419
+layer index: 30 	 total channel: 512 	 remaining channel: 457
+layer index: 33 	 total channel: 512 	 remaining channel: 471
+layer index: 37 	 total channel: 512 	 remaining channel: 438
+layer index: 40 	 total channel: 512 	 remaining channel: 298
+layer index: 43 	 total channel: 512 	 remaining channel: 467
+Pre-processing Successful!
+Test model after pruning.
+
+Test accuracy: 4692/8041 (58.4%)
+
+cfg:  [22, 51, 'M', 72, 117, 'M', 149, 169, 249, 'M', 419, 457, 471, 'M', 438, 298, 467]
+Create model backbone by cfg.
+Initialize model parameters.
+BCNN(
+  (features): Sequential(
+    (0): Conv2d(3, 22, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): BatchNorm2d(22, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+    (3): Conv2d(22, 51, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): BatchNorm2d(51, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU(inplace=True)
+    (6): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (7): Conv2d(51, 72, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (8): BatchNorm2d(72, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (9): ReLU(inplace=True)
+    (10): Conv2d(72, 117, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (11): BatchNorm2d(117, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (12): ReLU(inplace=True)
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): Conv2d(117, 149, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (15): BatchNorm2d(149, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (16): ReLU(inplace=True)
+    (17): Conv2d(149, 169, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (18): BatchNorm2d(169, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (19): ReLU(inplace=True)
+    (20): Conv2d(169, 249, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (21): BatchNorm2d(249, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (22): ReLU(inplace=True)
+    (23): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (24): Conv2d(249, 419, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (25): BatchNorm2d(419, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (26): ReLU(inplace=True)
+    (27): Conv2d(419, 457, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (28): BatchNorm2d(457, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (29): ReLU(inplace=True)
+    (30): Conv2d(457, 471, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (31): BatchNorm2d(471, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (32): ReLU(inplace=True)
+    (33): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (34): Conv2d(471, 438, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (35): BatchNorm2d(438, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (36): ReLU(inplace=True)
+    (37): Conv2d(438, 298, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (38): BatchNorm2d(298, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (39): ReLU(inplace=True)
+    (40): Conv2d(298, 467, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (41): BatchNorm2d(467, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (relu5_3): ReLU()
+  (classifier): Linear(in_features=218089, out_features=200, bias=True)
+)
+Pruned model: C:/works/PythonCode/BCNNSlimming/model/best_model0416trial07c_pruned20.pkl
+Create pretrained model with BN layer.
+Loaded checkpoint: 'C:/works/PythonCode/BCNNSlimming/model/best_model0416trial07c.pkl' (epoch 44) Prec1: 86.543962
+Channels pruned: 40.0%
+Pruning threshold: 0.2294
+Check if label start from 0: True
+Dataset Path: C:/Dataset/StandfordCar
+Number of class: 196
+Train data: 8144
+Test data: 8041
+Test model before pruning.
+
+Test accuracy: 6959/8041 (86.5%)
+
+layer index: 3 	 total channel: 64 	 remaining channel: 19
+layer index: 6 	 total channel: 64 	 remaining channel: 40
+layer index: 10 	 total channel: 128 	 remaining channel: 53
+layer index: 13 	 total channel: 128 	 remaining channel: 101
+layer index: 17 	 total channel: 256 	 remaining channel: 67
+layer index: 20 	 total channel: 256 	 remaining channel: 83
+layer index: 23 	 total channel: 256 	 remaining channel: 208
+layer index: 27 	 total channel: 512 	 remaining channel: 281
+layer index: 30 	 total channel: 512 	 remaining channel: 337
+layer index: 33 	 total channel: 512 	 remaining channel: 407
+layer index: 37 	 total channel: 512 	 remaining channel: 359
+layer index: 40 	 total channel: 512 	 remaining channel: 231
+layer index: 43 	 total channel: 512 	 remaining channel: 348
+Pre-processing Successful!
+Test model after pruning.
+
+Test accuracy: 43/8041 (0.5%)
+
+cfg:  [19, 40, 'M', 53, 101, 'M', 67, 83, 208, 'M', 281, 337, 407, 'M', 359, 231, 348]
+Create model backbone by cfg.
+Initialize model parameters.
+BCNN(
+  (features): Sequential(
+    (0): Conv2d(3, 19, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): BatchNorm2d(19, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+    (3): Conv2d(19, 40, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): BatchNorm2d(40, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU(inplace=True)
+    (6): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (7): Conv2d(40, 53, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (8): BatchNorm2d(53, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (9): ReLU(inplace=True)
+    (10): Conv2d(53, 101, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (11): BatchNorm2d(101, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (12): ReLU(inplace=True)
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): Conv2d(101, 67, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (15): BatchNorm2d(67, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (16): ReLU(inplace=True)
+    (17): Conv2d(67, 83, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (18): BatchNorm2d(83, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (19): ReLU(inplace=True)
+    (20): Conv2d(83, 208, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (21): BatchNorm2d(208, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (22): ReLU(inplace=True)
+    (23): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (24): Conv2d(208, 281, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (25): BatchNorm2d(281, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (26): ReLU(inplace=True)
+    (27): Conv2d(281, 337, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (28): BatchNorm2d(337, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (29): ReLU(inplace=True)
+    (30): Conv2d(337, 407, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (31): BatchNorm2d(407, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (32): ReLU(inplace=True)
+    (33): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (34): Conv2d(407, 359, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (35): BatchNorm2d(359, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (36): ReLU(inplace=True)
+    (37): Conv2d(359, 231, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (38): BatchNorm2d(231, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (39): ReLU(inplace=True)
+    (40): Conv2d(231, 348, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (41): BatchNorm2d(348, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (relu5_3): ReLU()
+  (classifier): Linear(in_features=121104, out_features=200, bias=True)
+)
+Pruned model: C:/works/PythonCode/BCNNSlimming/model/best_model0416trial07c_pruned40.pkl
+Create pretrained model with BN layer.
+Loaded checkpoint: 'C:/works/PythonCode/BCNNSlimming/model/best_model0416trial07c.pkl' (epoch 44) Prec1: 86.543962
+Channels pruned: 60.0%
+Pruning threshold: 0.2779
+Check if label start from 0: True
+Dataset Path: C:/Dataset/StandfordCar
+Number of class: 196
+Train data: 8144
+Test data: 8041
+Test model before pruning.
+
+Test accuracy: 6959/8041 (86.5%)
+
+layer index: 3 	 total channel: 64 	 remaining channel: 16
+layer index: 6 	 total channel: 64 	 remaining channel: 31
+layer index: 10 	 total channel: 128 	 remaining channel: 33
+layer index: 13 	 total channel: 128 	 remaining channel: 69
+layer index: 17 	 total channel: 256 	 remaining channel: 32
+layer index: 20 	 total channel: 256 	 remaining channel: 36
+layer index: 23 	 total channel: 256 	 remaining channel: 138
+layer index: 27 	 total channel: 512 	 remaining channel: 160
+layer index: 30 	 total channel: 512 	 remaining channel: 212
+layer index: 33 	 total channel: 512 	 remaining channel: 285
+layer index: 37 	 total channel: 512 	 remaining channel: 261
+layer index: 40 	 total channel: 512 	 remaining channel: 181
+layer index: 43 	 total channel: 512 	 remaining channel: 235
+Pre-processing Successful!
+Test model after pruning.
+
+Test accuracy: 44/8041 (0.5%)
+
+cfg:  [16, 31, 'M', 33, 69, 'M', 32, 36, 138, 'M', 160, 212, 285, 'M', 261, 181, 235]
+Create model backbone by cfg.
+Initialize model parameters.
+BCNN(
+  (features): Sequential(
+    (0): Conv2d(3, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+    (3): Conv2d(16, 31, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): BatchNorm2d(31, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU(inplace=True)
+    (6): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (7): Conv2d(31, 33, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (8): BatchNorm2d(33, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (9): ReLU(inplace=True)
+    (10): Conv2d(33, 69, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (11): BatchNorm2d(69, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (12): ReLU(inplace=True)
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): Conv2d(69, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (15): BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (16): ReLU(inplace=True)
+    (17): Conv2d(32, 36, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (18): BatchNorm2d(36, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (19): ReLU(inplace=True)
+    (20): Conv2d(36, 138, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (21): BatchNorm2d(138, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (22): ReLU(inplace=True)
+    (23): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (24): Conv2d(138, 160, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (25): BatchNorm2d(160, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (26): ReLU(inplace=True)
+    (27): Conv2d(160, 212, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (28): BatchNorm2d(212, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (29): ReLU(inplace=True)
+    (30): Conv2d(212, 285, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (31): BatchNorm2d(285, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (32): ReLU(inplace=True)
+    (33): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (34): Conv2d(285, 261, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (35): BatchNorm2d(261, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (36): ReLU(inplace=True)
+    (37): Conv2d(261, 181, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (38): BatchNorm2d(181, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (39): ReLU(inplace=True)
+    (40): Conv2d(181, 235, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (41): BatchNorm2d(235, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (relu5_3): ReLU()
+  (classifier): Linear(in_features=55225, out_features=200, bias=True)
+)
+Pruned model: C:/works/PythonCode/BCNNSlimming/model/best_model0416trial07c_pruned60.pkl
+Create pretrained model with BN layer.
+Loaded checkpoint: 'C:/works/PythonCode/BCNNSlimming/model/best_model0416trial07c.pkl' (epoch 44) Prec1: 86.543962
+Channels pruned: 80.0%
+Pruning threshold: 0.3333
+Check if label start from 0: True
+Dataset Path: C:/Dataset/StandfordCar
+Number of class: 196
+Train data: 8144
+Test data: 8041
+Test model before pruning.
+
+Test accuracy: 6959/8041 (86.5%)
+
+layer index: 3 	 total channel: 64 	 remaining channel: 13
+layer index: 6 	 total channel: 64 	 remaining channel: 22
+layer index: 10 	 total channel: 128 	 remaining channel: 13
+layer index: 13 	 total channel: 128 	 remaining channel: 38
+layer index: 17 	 total channel: 256 	 remaining channel: 11
+layer index: 20 	 total channel: 256 	 remaining channel: 14
+layer index: 23 	 total channel: 256 	 remaining channel: 70
+layer index: 27 	 total channel: 512 	 remaining channel: 66
+layer index: 30 	 total channel: 512 	 remaining channel: 72
+layer index: 33 	 total channel: 512 	 remaining channel: 126
+layer index: 37 	 total channel: 512 	 remaining channel: 155
+layer index: 40 	 total channel: 512 	 remaining channel: 117
+layer index: 43 	 total channel: 512 	 remaining channel: 127
+Pre-processing Successful!
+Test model after pruning.
+
+Test accuracy: 42/8041 (0.5%)
+
+cfg:  [13, 22, 'M', 13, 38, 'M', 11, 14, 70, 'M', 66, 72, 126, 'M', 155, 117, 127]
+Create model backbone by cfg.
+Initialize model parameters.
+BCNN(
+  (features): Sequential(
+    (0): Conv2d(3, 13, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): BatchNorm2d(13, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+    (3): Conv2d(13, 22, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): BatchNorm2d(22, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU(inplace=True)
+    (6): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (7): Conv2d(22, 13, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (8): BatchNorm2d(13, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (9): ReLU(inplace=True)
+    (10): Conv2d(13, 38, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (11): BatchNorm2d(38, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (12): ReLU(inplace=True)
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): Conv2d(38, 11, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (15): BatchNorm2d(11, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (16): ReLU(inplace=True)
+    (17): Conv2d(11, 14, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (18): BatchNorm2d(14, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (19): ReLU(inplace=True)
+    (20): Conv2d(14, 70, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (21): BatchNorm2d(70, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (22): ReLU(inplace=True)
+    (23): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (24): Conv2d(70, 66, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (25): BatchNorm2d(66, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (26): ReLU(inplace=True)
+    (27): Conv2d(66, 72, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (28): BatchNorm2d(72, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (29): ReLU(inplace=True)
+    (30): Conv2d(72, 126, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (31): BatchNorm2d(126, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (32): ReLU(inplace=True)
+    (33): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (34): Conv2d(126, 155, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (35): BatchNorm2d(155, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (36): ReLU(inplace=True)
+    (37): Conv2d(155, 117, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (38): BatchNorm2d(117, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (39): ReLU(inplace=True)
+    (40): Conv2d(117, 127, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (41): BatchNorm2d(127, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (relu5_3): ReLU()
+  (classifier): Linear(in_features=16129, out_features=200, bias=True)
+)
+
+5/7
+Create pretrained model with BN layer.
+Loaded checkpoint: 'C:/works/PythonCode/BCNNSlimming/model/best_model0416trial07c.pkl' (epoch 44) Prec1: 86.543962
+Channels pruned: 80.0%
+Pruning threshold: 0.3333
+Check if label start from 0: True
+Dataset Path: C:/Dataset/StandfordCar
+Number of class: 196
+Train data: 8144
+Test data: 8041
+Test model before pruning.
+
+Test accuracy: 6959/8041 (86.5%)
+
+layer index: 3 	 total channel: 64 	 remaining channel: 13
+layer index: 6 	 total channel: 64 	 remaining channel: 22
+layer index: 10 	 total channel: 128 	 remaining channel: 13
+layer index: 13 	 total channel: 128 	 remaining channel: 38
+layer index: 17 	 total channel: 256 	 remaining channel: 11
+layer index: 20 	 total channel: 256 	 remaining channel: 14
+layer index: 23 	 total channel: 256 	 remaining channel: 70
+layer index: 27 	 total channel: 512 	 remaining channel: 66
+layer index: 30 	 total channel: 512 	 remaining channel: 72
+layer index: 33 	 total channel: 512 	 remaining channel: 126
+layer index: 37 	 total channel: 512 	 remaining channel: 155
+layer index: 40 	 total channel: 512 	 remaining channel: 117
+layer index: 43 	 total channel: 512 	 remaining channel: 127
+Pre-processing Successful!
+Create model backbone by cfg.
+Initialize model parameters.
+BCNN(
+  (features): Sequential(
+    (0): Conv2d(3, 13, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): BatchNorm2d(13, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+    (3): Conv2d(13, 22, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): BatchNorm2d(22, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU(inplace=True)
+    (6): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (7): Conv2d(22, 13, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (8): BatchNorm2d(13, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (9): ReLU(inplace=True)
+    (10): Conv2d(13, 38, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (11): BatchNorm2d(38, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (12): ReLU(inplace=True)
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): Conv2d(38, 11, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (15): BatchNorm2d(11, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (16): ReLU(inplace=True)
+    (17): Conv2d(11, 14, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (18): BatchNorm2d(14, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (19): ReLU(inplace=True)
+    (20): Conv2d(14, 70, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (21): BatchNorm2d(70, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (22): ReLU(inplace=True)
+    (23): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (24): Conv2d(70, 66, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (25): BatchNorm2d(66, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (26): ReLU(inplace=True)
+    (27): Conv2d(66, 72, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (28): BatchNorm2d(72, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (29): ReLU(inplace=True)
+    (30): Conv2d(72, 126, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (31): BatchNorm2d(126, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (32): ReLU(inplace=True)
+    (33): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (34): Conv2d(126, 155, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (35): BatchNorm2d(155, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (36): ReLU(inplace=True)
+    (37): Conv2d(155, 117, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (38): BatchNorm2d(117, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (39): ReLU(inplace=True)
+    (40): Conv2d(117, 127, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (41): BatchNorm2d(127, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (relu5_3): ReLU()
+  (classifier): Linear(in_features=16129, out_features=200, bias=True)
+)

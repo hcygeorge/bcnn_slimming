@@ -1,0 +1,1548 @@
+Batch: 48, LR: 0.01, Sparsity: True, Penalty: 0.0001, Patience: 5
+Dataset: train_valid
+Sample Size: 6667
+Number of Class: 100
+Dataset: test
+Sample Size: 3333
+Number of Class: 100
+Create pretrained model with BN layer.
+Load the checkpoint
+Path:'D:/model/bestmodel0515_trial07a.pkl'
+Last epoch: 18 
+ValidAcc: 84.49%
+Use cuda: True
+Start training...
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 23
+layer index: 6 	 total channel: 64 	 remaining channel: 55
+layer index: 10 	 total channel: 128 	 remaining channel: 89
+layer index: 13 	 total channel: 128 	 remaining channel: 118
+layer index: 17 	 total channel: 256 	 remaining channel: 191
+layer index: 20 	 total channel: 256 	 remaining channel: 207
+layer index: 23 	 total channel: 256 	 remaining channel: 244
+layer index: 27 	 total channel: 512 	 remaining channel: 451
+layer index: 30 	 total channel: 512 	 remaining channel: 436
+layer index: 33 	 total channel: 512 	 remaining channel: 416
+layer index: 37 	 total channel: 512 	 remaining channel: 344
+layer index: 40 	 total channel: 512 	 remaining channel: 295
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Time: 97.33 secs
+Epoch:0/49
+Accuracy(Train/Valid):99.67/4.02% Loss(Train/Valid):0.390/1.075
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 92
+layer index: 13 	 total channel: 128 	 remaining channel: 119
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 231
+layer index: 23 	 total channel: 256 	 remaining channel: 238
+layer index: 27 	 total channel: 512 	 remaining channel: 444
+layer index: 30 	 total channel: 512 	 remaining channel: 434
+layer index: 33 	 total channel: 512 	 remaining channel: 403
+layer index: 37 	 total channel: 512 	 remaining channel: 338
+layer index: 40 	 total channel: 512 	 remaining channel: 276
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Time: 84.51 secs
+Epoch:1/49
+Accuracy(Train/Valid):77.05/59.41% Loss(Train/Valid):0.884/2.045
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 121
+layer index: 17 	 total channel: 256 	 remaining channel: 214
+layer index: 20 	 total channel: 256 	 remaining channel: 231
+layer index: 23 	 total channel: 256 	 remaining channel: 239
+layer index: 27 	 total channel: 512 	 remaining channel: 440
+layer index: 30 	 total channel: 512 	 remaining channel: 435
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Time: 84.88 secs
+Epoch:2/49
+Accuracy(Train/Valid):81.34/66.10% Loss(Train/Valid):0.934/0.814
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 216
+layer index: 20 	 total channel: 256 	 remaining channel: 230
+layer index: 23 	 total channel: 256 	 remaining channel: 239
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 434
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:3/49
+Accuracy(Train/Valid):86.67/68.62% Loss(Train/Valid):0.690/1.009
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 93
+layer index: 13 	 total channel: 128 	 remaining channel: 121
+layer index: 17 	 total channel: 256 	 remaining channel: 214
+layer index: 20 	 total channel: 256 	 remaining channel: 234
+layer index: 23 	 total channel: 256 	 remaining channel: 240
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 431
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:4/49
+Accuracy(Train/Valid):90.18/69.46% Loss(Train/Valid):0.628/1.340
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 119
+layer index: 17 	 total channel: 256 	 remaining channel: 214
+layer index: 20 	 total channel: 256 	 remaining channel: 233
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 430
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:5/49
+Accuracy(Train/Valid):89.68/75.34% Loss(Train/Valid):0.681/0.838
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 119
+layer index: 17 	 total channel: 256 	 remaining channel: 214
+layer index: 20 	 total channel: 256 	 remaining channel: 233
+layer index: 23 	 total channel: 256 	 remaining channel: 242
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 431
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:6/49
+Accuracy(Train/Valid):93.27/78.01% Loss(Train/Valid):0.474/0.732
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 119
+layer index: 17 	 total channel: 256 	 remaining channel: 213
+layer index: 20 	 total channel: 256 	 remaining channel: 233
+layer index: 23 	 total channel: 256 	 remaining channel: 241
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 433
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:7/49
+Accuracy(Train/Valid):93.15/79.57% Loss(Train/Valid):0.551/0.672
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 121
+layer index: 17 	 total channel: 256 	 remaining channel: 213
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 241
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:8/49
+Accuracy(Train/Valid):94.33/78.16% Loss(Train/Valid):0.517/0.498
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 122
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 241
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Model saved.
+Epoch:9/49
+Accuracy(Train/Valid):94.77/75.28% Loss(Train/Valid):0.563/0.730
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 122
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 231
+layer index: 23 	 total channel: 256 	 remaining channel: 242
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:10/49
+Accuracy(Train/Valid):94.33/77.83% Loss(Train/Valid):0.466/0.706
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:11/49
+Accuracy(Train/Valid):95.17/79.42% Loss(Train/Valid):0.450/0.630
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:12/49
+Accuracy(Train/Valid):97.09/82.09% Loss(Train/Valid):0.435/0.664
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:13/49
+Accuracy(Train/Valid):97.35/81.19% Loss(Train/Valid):0.371/0.572
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Model saved.
+Epoch:14/49
+Accuracy(Train/Valid):97.86/82.00% Loss(Train/Valid):0.421/0.671
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:15/49
+Accuracy(Train/Valid):98.08/82.69% Loss(Train/Valid):0.376/0.683
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:16/49
+Accuracy(Train/Valid):98.19/81.64% Loss(Train/Valid):0.345/0.570
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:17/49
+Accuracy(Train/Valid):98.59/83.71% Loss(Train/Valid):0.329/0.551
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:18/49
+Accuracy(Train/Valid):98.92/83.74% Loss(Train/Valid):0.262/0.562
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Model saved.
+Epoch:19/49
+Accuracy(Train/Valid):98.80/82.99% Loss(Train/Valid):0.322/0.610
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:20/49
+Accuracy(Train/Valid):98.55/82.69% Loss(Train/Valid):0.306/0.695
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:21/49
+Accuracy(Train/Valid):98.49/83.59% Loss(Train/Valid):0.370/0.720
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:22/49
+Accuracy(Train/Valid):99.10/84.82% Loss(Train/Valid):0.282/0.662
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:23/49
+Accuracy(Train/Valid):99.33/83.86% Loss(Train/Valid):0.273/0.709
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Model saved.
+Epoch:24/49
+Accuracy(Train/Valid):99.19/83.53% Loss(Train/Valid):0.303/0.654
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:25/49
+Accuracy(Train/Valid):99.43/83.98% Loss(Train/Valid):0.258/0.663
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:26/49
+Accuracy(Train/Valid):99.51/84.01% Loss(Train/Valid):0.240/0.687
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:27/49
+Accuracy(Train/Valid):99.76/84.73% Loss(Train/Valid):0.297/0.626
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch    28: reducing learning rate of group 0 to 1.0000e-03.
+Epoch:28/49
+Accuracy(Train/Valid):99.69/84.73% Loss(Train/Valid):0.220/0.637
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Model saved.
+Epoch:29/49
+Accuracy(Train/Valid):99.79/84.70% Loss(Train/Valid):0.237/0.635
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:30/49
+Accuracy(Train/Valid):99.85/84.82% Loss(Train/Valid):0.245/0.628
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+
+[25, 57, 'M', 94, 120, 'M', 212, 232, 243, 'M', 441, 432, 401, 'M', 337, 275, 510]
+
+Epoch:31/49
+Accuracy(Train/Valid):99.87/84.88% Loss(Train/Valid):0.241/0.625
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:32/49
+Accuracy(Train/Valid):99.85/84.85% Loss(Train/Valid):0.268/0.619
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:33/49
+Accuracy(Train/Valid):99.87/84.67% Loss(Train/Valid):0.247/0.627
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Model saved.
+Epoch:34/49
+Accuracy(Train/Valid):99.87/84.79% Loss(Train/Valid):0.236/0.623
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:35/49
+Accuracy(Train/Valid):99.81/84.49% Loss(Train/Valid):0.272/0.627
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:36/49
+Accuracy(Train/Valid):99.81/84.76% Loss(Train/Valid):0.215/0.621
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch    37: reducing learning rate of group 0 to 1.0000e-04.
+Epoch:37/49
+Accuracy(Train/Valid):99.84/84.58% Loss(Train/Valid):0.250/0.620
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:38/49
+Accuracy(Train/Valid):99.88/84.64% Loss(Train/Valid):0.251/0.624
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Model saved.
+Epoch:39/49
+Accuracy(Train/Valid):99.91/84.64% Loss(Train/Valid):0.229/0.623
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:40/49
+Accuracy(Train/Valid):99.85/84.67% Loss(Train/Valid):0.222/0.624
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:41/49
+Accuracy(Train/Valid):99.90/84.79% Loss(Train/Valid):0.250/0.621
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:42/49
+Accuracy(Train/Valid):99.90/84.49% Loss(Train/Valid):0.228/0.629
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch    43: reducing learning rate of group 0 to 1.0000e-05.
+Epoch:43/49
+Accuracy(Train/Valid):99.87/84.58% Loss(Train/Valid):0.244/0.618
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Model saved.
+Epoch:44/49
+Accuracy(Train/Valid):99.84/84.61% Loss(Train/Valid):0.227/0.622
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:45/49
+Accuracy(Train/Valid):99.87/84.67% Loss(Train/Valid):0.263/0.615
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:46/49
+Accuracy(Train/Valid):99.84/84.64% Loss(Train/Valid):0.237/0.626
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:47/49
+Accuracy(Train/Valid):99.87/84.73% Loss(Train/Valid):0.253/0.617
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch:48/49
+Accuracy(Train/Valid):99.82/84.82% Loss(Train/Valid):0.226/0.620
+Zero out the factors.
+layer index: 3 	 total channel: 64 	 remaining channel: 25
+layer index: 6 	 total channel: 64 	 remaining channel: 57
+layer index: 10 	 total channel: 128 	 remaining channel: 94
+layer index: 13 	 total channel: 128 	 remaining channel: 120
+layer index: 17 	 total channel: 256 	 remaining channel: 212
+layer index: 20 	 total channel: 256 	 remaining channel: 232
+layer index: 23 	 total channel: 256 	 remaining channel: 243
+layer index: 27 	 total channel: 512 	 remaining channel: 441
+layer index: 30 	 total channel: 512 	 remaining channel: 432
+layer index: 33 	 total channel: 512 	 remaining channel: 401
+layer index: 37 	 total channel: 512 	 remaining channel: 337
+layer index: 40 	 total channel: 512 	 remaining channel: 275
+layer index: 43 	 total channel: 512 	 remaining channel: 510
+Epoch    49: reducing learning rate of group 0 to 1.0000e-06.
+Model saved.
+Epoch:49/49
+Accuracy(Train/Valid):99.93/84.64% Loss(Train/Valid):0.253/0.615
+Time: 71.03 mins
+
+84.9
+Batch: 48, LR: 0.01, Sparsity: True, Penalty: 0.0001, Patience: 10
+Dataset: train_valid
+Sample Size: 6667
+Number of Class: 100
+Dataset: test
+Sample Size: 3333
+Number of Class: 100
+Create pretrained model with BN layer.
+Load the checkpoint
+Path:'D:/model/bestmodel0515_trial07a.pkl'
+Last epoch: 18 
+ValidAcc: 84.49%
+Use cuda: True
+Start training...
+[19, 44, 'M', 64, 98, 'M', 118, 135, 206, 'M', 305, 309, 300, 'M', 232, 194, 510]
+Time: 95.21 secs
+Epoch:0/119
+Accuracy(Train/Valid):99.69/1.11% Loss(Train/Valid):0.390/5.470
+[19, 47, 'M', 76, 100, 'M', 141, 149, 195, 'M', 290, 298, 288, 'M', 228, 193, 510]
+Time: 83.43 secs
+Epoch:1/119
+Accuracy(Train/Valid):55.51/19.02% Loss(Train/Valid):1.158/4.050
+[20, 46, 'M', 78, 103, 'M', 140, 150, 195, 'M', 291, 299, 288, 'M', 226, 188, 510]
+Time: 83.24 secs
+Epoch:2/119
+Accuracy(Train/Valid):70.89/35.07% Loss(Train/Valid):1.088/2.603
+[20, 45, 'M', 76, 104, 'M', 141, 151, 197, 'M', 291, 296, 288, 'M', 227, 188, 510]
+Epoch:3/119
+Accuracy(Train/Valid):76.35/46.32% Loss(Train/Valid):0.842/2.472
+[20, 48, 'M', 75, 102, 'M', 142, 147, 200, 'M', 292, 295, 288, 'M', 227, 188, 510]
+Model saved.
+Epoch:4/119
+Accuracy(Train/Valid):80.40/43.65% Loss(Train/Valid):0.877/2.674
+[20, 48, 'M', 76, 101, 'M', 143, 149, 198, 'M', 291, 295, 287, 'M', 228, 188, 510]
+Epoch:5/119
+Accuracy(Train/Valid):81.18/63.58% Loss(Train/Valid):0.787/1.034
+[20, 48, 'M', 76, 101, 'M', 142, 152, 198, 'M', 290, 294, 287, 'M', 228, 188, 510]
+Epoch:6/119
+Accuracy(Train/Valid):83.64/70.66% Loss(Train/Valid):0.789/0.775
+[20, 47, 'M', 77, 101, 'M', 143, 150, 198, 'M', 291, 294, 287, 'M', 228, 188, 510]
+Epoch:7/119
+Accuracy(Train/Valid):85.50/65.38% Loss(Train/Valid):0.811/1.308
+[20, 47, 'M', 77, 101, 'M', 144, 150, 198, 'M', 290, 294, 287, 'M', 228, 188, 510]
+Epoch:8/119
+Accuracy(Train/Valid):87.64/73.18% Loss(Train/Valid):0.762/0.993
+[20, 47, 'M', 76, 101, 'M', 144, 151, 198, 'M', 290, 294, 287, 'M', 228, 188, 510]
+Epoch:9/119
+Accuracy(Train/Valid):88.57/75.22% Loss(Train/Valid):0.564/0.772
+[20, 47, 'M', 77, 101, 'M', 145, 149, 198, 'M', 290, 294, 287, 'M', 228, 188, 510]
+Epoch:10/119
+Accuracy(Train/Valid):90.19/75.97% Loss(Train/Valid):0.548/0.747
+[20, 47, 'M', 76, 101, 'M', 145, 150, 198, 'M', 290, 294, 287, 'M', 228, 188, 510]
+Epoch:11/119
+Accuracy(Train/Valid):90.72/77.32% Loss(Train/Valid):0.596/0.812
+[20, 47, 'M', 77, 101, 'M', 144, 149, 199, 'M', 290, 294, 287, 'M', 228, 188, 510]
+Epoch:12/119
+Accuracy(Train/Valid):92.10/78.07% Loss(Train/Valid):0.541/0.784
+[20, 47, 'M', 77, 102, 'M', 143, 149, 198, 'M', 291, 294, 287, 'M', 228, 188, 510]
+Epoch:13/119
+Accuracy(Train/Valid):92.07/77.68% Loss(Train/Valid):0.471/0.774
+Epoch:14/119
+Accuracy(Train/Valid):92.88/79.51% Loss(Train/Valid):0.446/0.633
+[20, 47, 'M', 77, 102, 'M', 143, 149, 199, 'M', 290, 294, 287, 'M', 228, 188, 510]
+Epoch:15/119
+Accuracy(Train/Valid):93.27/77.95% Loss(Train/Valid):0.424/0.699
+Epoch:16/119
+Accuracy(Train/Valid):93.90/80.17% Loss(Train/Valid):0.481/0.773
+[20, 47, 'M', 77, 102, 'M', 143, 148, 199, 'M', 291, 294, 287, 'M', 228, 188, 510]
+Epoch:17/119
+Accuracy(Train/Valid):93.60/79.99% Loss(Train/Valid):0.459/1.034
+[20, 47, 'M', 77, 103, 'M', 143, 148, 199, 'M', 290, 294, 287, 'M', 228, 188, 510]
+Epoch:18/119
+Accuracy(Train/Valid):95.04/79.99% Loss(Train/Valid):0.320/0.623
+Epoch:19/119
+Accuracy(Train/Valid):95.46/81.49% Loss(Train/Valid):0.369/0.729
+Epoch:20/119
+Accuracy(Train/Valid):95.56/82.45% Loss(Train/Valid):0.369/0.662
+Epoch:21/119
+Accuracy(Train/Valid):96.54/82.12% Loss(Train/Valid):0.493/0.802
+Epoch:22/119
+Accuracy(Train/Valid):96.79/80.53% Loss(Train/Valid):0.348/0.886
+Epoch:23/119
+Accuracy(Train/Valid):96.96/83.23% Loss(Train/Valid):0.348/0.788
+Epoch:24/119
+Accuracy(Train/Valid):97.42/83.65% Loss(Train/Valid):0.349/0.691
+Epoch:25/119
+Accuracy(Train/Valid):96.97/81.25% Loss(Train/Valid):0.318/0.976
+Epoch:26/119
+Accuracy(Train/Valid):97.32/82.84% Loss(Train/Valid):0.298/0.662
+Epoch:27/119
+Accuracy(Train/Valid):97.45/83.38% Loss(Train/Valid):0.506/0.779
+Epoch:28/119
+Accuracy(Train/Valid):97.93/82.93% Loss(Train/Valid):0.249/0.722
+Epoch:29/119
+Accuracy(Train/Valid):98.17/84.34% Loss(Train/Valid):0.309/0.802
+Epoch:30/119
+Accuracy(Train/Valid):98.07/84.31% Loss(Train/Valid):0.297/0.680
+Epoch:31/119
+Accuracy(Train/Valid):98.05/84.07% Loss(Train/Valid):0.284/0.759
+Epoch:32/119
+Accuracy(Train/Valid):98.53/82.96% Loss(Train/Valid):0.335/1.058
+Epoch:33/119
+Accuracy(Train/Valid):98.07/83.41% Loss(Train/Valid):0.268/0.575
+Epoch:34/119
+Accuracy(Train/Valid):98.59/85.00% Loss(Train/Valid):0.257/0.579
+Epoch:35/119
+Accuracy(Train/Valid):98.91/84.73% Loss(Train/Valid):0.309/0.744
+Epoch:36/119
+Accuracy(Train/Valid):98.79/84.64% Loss(Train/Valid):0.212/0.620
+Epoch:37/119
+Accuracy(Train/Valid):99.06/84.88% Loss(Train/Valid):0.264/0.811
+Epoch:38/119
+Accuracy(Train/Valid):98.98/83.68% Loss(Train/Valid):0.250/0.510
+Model saved.
+Epoch:39/119
+Accuracy(Train/Valid):99.04/84.94% Loss(Train/Valid):0.217/0.665
+Epoch:40/119
+Accuracy(Train/Valid):99.16/85.06% Loss(Train/Valid):0.203/0.709
+Epoch:41/119
+Accuracy(Train/Valid):99.10/84.13% Loss(Train/Valid):0.271/0.802
+[20, 47, 'M', 77, 103, 'M', 143, 148, 198, 'M', 290, 295, 287, 'M', 228, 188, 510]
+Epoch:42/119
+Accuracy(Train/Valid):98.47/83.02% Loss(Train/Valid):0.255/0.815
+[20, 47, 'M', 77, 103, 'M', 143, 148, 199, 'M', 290, 294, 287, 'M', 228, 188, 510]
+Epoch:43/119
+Accuracy(Train/Valid):98.68/83.92% Loss(Train/Valid):0.247/0.675
+Model saved.
+Epoch:44/119
+Accuracy(Train/Valid):99.03/84.61% Loss(Train/Valid):0.212/0.750
+[20, 48, 'M', 77, 103, 'M', 143, 148, 198, 'M', 290, 294, 287, 'M', 228, 188, 510]
+Epoch:45/119
+Accuracy(Train/Valid):99.01/83.98% Loss(Train/Valid):0.233/0.633
+[20, 47, 'M', 77, 103, 'M', 143, 148, 198, 'M', 290, 294, 287, 'M', 229, 188, 510]
+Epoch:46/119
+Accuracy(Train/Valid):99.25/85.36% Loss(Train/Valid):0.208/0.643
+[20, 47, 'M', 77, 103, 'M', 143, 149, 198, 'M', 290, 294, 287, 'M', 228, 188, 510]
+Epoch:47/119
+Accuracy(Train/Valid):98.67/83.65% Loss(Train/Valid):0.280/0.645
+Epoch:48/119
+Accuracy(Train/Valid):99.00/84.55% Loss(Train/Valid):0.213/0.564
+[20, 47, 'M', 77, 103, 'M', 143, 151, 199, 'M', 290, 294, 286, 'M', 226, 188, 510]
+Model saved.
+Epoch:49/119
+Accuracy(Train/Valid):98.35/83.86% Loss(Train/Valid):0.241/0.668
+[20, 47, 'M', 77, 103, 'M', 143, 149, 199, 'M', 290, 294, 287, 'M', 227, 188, 510]
+Epoch:50/119
+Accuracy(Train/Valid):98.79/83.23% Loss(Train/Valid):0.211/0.886
+[20, 47, 'M', 77, 104, 'M', 143, 149, 199, 'M', 290, 294, 286, 'M', 227, 188, 510]
+Epoch:51/119
+Accuracy(Train/Valid):99.01/83.35% Loss(Train/Valid):0.226/0.684
+Epoch:52/119
+Accuracy(Train/Valid):99.33/83.11% Loss(Train/Valid):0.220/0.564
+Epoch:53/119
+Accuracy(Train/Valid):99.15/84.04% Loss(Train/Valid):0.242/0.542
+Model saved.
+Epoch:54/119
+Accuracy(Train/Valid):99.49/84.82% Loss(Train/Valid):0.281/0.703
+Epoch:55/119
+Accuracy(Train/Valid):99.45/84.55% Loss(Train/Valid):0.171/0.620
+Epoch:56/119
+Accuracy(Train/Valid):99.57/84.91% Loss(Train/Valid):0.192/0.725
+Epoch:57/119
+Accuracy(Train/Valid):99.64/86.05% Loss(Train/Valid):0.195/0.657
+Epoch:58/119
+Accuracy(Train/Valid):99.66/84.76% Loss(Train/Valid):0.178/0.708
+Model saved.
+Epoch:59/119
+Accuracy(Train/Valid):99.81/85.66% Loss(Train/Valid):0.169/0.657
+Epoch:60/119
+Accuracy(Train/Valid):99.78/85.51% Loss(Train/Valid):0.183/0.702
+Epoch:61/119
+Accuracy(Train/Valid):99.79/85.36% Loss(Train/Valid):0.174/0.742
+Epoch:62/119
+Accuracy(Train/Valid):99.76/85.72% Loss(Train/Valid):0.158/0.676
+Epoch:63/119
+Accuracy(Train/Valid):99.79/85.09% Loss(Train/Valid):0.156/0.683
+Model saved.
+Epoch:64/119
+Accuracy(Train/Valid):99.69/85.18% Loss(Train/Valid):0.154/0.796
+Epoch:65/119
+Accuracy(Train/Valid):99.88/85.45% Loss(Train/Valid):0.171/0.711
+Epoch:66/119
+Accuracy(Train/Valid):99.88/85.21% Loss(Train/Valid):0.172/0.708
+Epoch:67/119
+Accuracy(Train/Valid):99.88/86.05% Loss(Train/Valid):0.169/0.693
+Epoch    68: reducing learning rate of group 0 to 5.0000e-03.
+Epoch:68/119
+Accuracy(Train/Valid):99.94/85.90% Loss(Train/Valid):0.156/0.830
+Model saved.
+Epoch:69/119
+Accuracy(Train/Valid):99.94/85.90% Loss(Train/Valid):0.152/0.746
+Epoch:70/119
+Accuracy(Train/Valid):99.90/85.84% Loss(Train/Valid):0.159/0.712
+Epoch:71/119
+Accuracy(Train/Valid):99.94/86.08% Loss(Train/Valid):0.158/0.731
+Epoch:72/119
+Accuracy(Train/Valid):99.96/85.81% Loss(Train/Valid):0.149/0.743
+Epoch:73/119
+Accuracy(Train/Valid):99.96/85.99% Loss(Train/Valid):0.145/0.723
+Model saved.
+Epoch:74/119
+Accuracy(Train/Valid):99.97/85.81% Loss(Train/Valid):0.143/0.709
+Epoch:75/119
+Accuracy(Train/Valid):99.97/85.78% Loss(Train/Valid):0.160/0.716
+Epoch:76/119
+Accuracy(Train/Valid):99.96/85.87% Loss(Train/Valid):0.138/0.732
+Epoch:77/119
+Accuracy(Train/Valid):99.97/85.72% Loss(Train/Valid):0.141/0.721
+Epoch:78/119
+Accuracy(Train/Valid):99.96/85.90% Loss(Train/Valid):0.143/0.715
+Model saved.
+Epoch:79/119
+Accuracy(Train/Valid):99.97/86.02% Loss(Train/Valid):0.156/0.710
+Epoch:80/119
+Accuracy(Train/Valid):99.97/86.02% Loss(Train/Valid):0.152/0.694
+[20, 47, 'M', 77, 105, 'M', 143, 149, 199, 'M', 290, 294, 286, 'M', 226, 188, 510]
+Epoch:81/119
+Accuracy(Train/Valid):99.93/86.50% Loss(Train/Valid):0.154/0.708
+Epoch:82/119
+Accuracy(Train/Valid):99.97/86.20% Loss(Train/Valid):0.137/0.677
+Epoch:83/119
+Accuracy(Train/Valid):99.94/86.02% Loss(Train/Valid):0.144/0.704
+Model saved.
+Epoch:84/119
+Accuracy(Train/Valid):99.97/86.20% Loss(Train/Valid):0.127/0.706
+Epoch:85/119
+Accuracy(Train/Valid):99.96/86.26% Loss(Train/Valid):0.134/0.707
+Epoch:86/119
+Accuracy(Train/Valid):99.97/86.08% Loss(Train/Valid):0.149/0.703
+Epoch:87/119
+Accuracy(Train/Valid):99.97/85.99% Loss(Train/Valid):0.138/0.719
+Epoch:88/119
+Accuracy(Train/Valid):99.97/86.14% Loss(Train/Valid):0.140/0.723
+Model saved.
+Epoch:89/119
+Accuracy(Train/Valid):99.96/85.99% Loss(Train/Valid):0.128/0.710
+Epoch:90/119
+Accuracy(Train/Valid):99.96/86.29% Loss(Train/Valid):0.133/0.717
+[20, 47, 'M', 77, 104, 'M', 143, 150, 199, 'M', 290, 294, 286, 'M', 226, 188, 510]
+Epoch:91/119
+Accuracy(Train/Valid):99.96/86.26% Loss(Train/Valid):0.149/0.714
+Epoch    92: reducing learning rate of group 0 to 2.5000e-03.
+Epoch:92/119
+Accuracy(Train/Valid):99.97/86.11% Loss(Train/Valid):0.224/0.724
+Epoch:93/119
+Accuracy(Train/Valid):99.96/86.23% Loss(Train/Valid):0.134/0.725
+Model saved.
+Epoch:94/119
+Accuracy(Train/Valid):99.97/86.08% Loss(Train/Valid):0.129/0.717
+Epoch:95/119
+Accuracy(Train/Valid):99.97/85.99% Loss(Train/Valid):0.136/0.720
+Epoch:96/119
+Accuracy(Train/Valid):99.97/85.93% Loss(Train/Valid):0.132/0.705
+Epoch:97/119
+Accuracy(Train/Valid):99.97/85.84% Loss(Train/Valid):0.125/0.707
+Epoch:98/119
+Accuracy(Train/Valid):99.97/85.90% Loss(Train/Valid):0.130/0.718
+Model saved.
+Epoch:99/119
+Accuracy(Train/Valid):99.97/85.84% Loss(Train/Valid):0.133/0.729
+Epoch:100/119
+Accuracy(Train/Valid):99.97/85.99% Loss(Train/Valid):0.119/0.721
+Epoch:101/119
+Accuracy(Train/Valid):99.97/86.08% Loss(Train/Valid):0.137/0.728
+Epoch:102/119
+Accuracy(Train/Valid):99.97/85.93% Loss(Train/Valid):0.137/0.721
+Epoch   103: reducing learning rate of group 0 to 1.2500e-03.
+Epoch:103/119
+Accuracy(Train/Valid):99.97/85.93% Loss(Train/Valid):0.135/0.723
+Model saved.
+Epoch:104/119
+Accuracy(Train/Valid):99.97/85.72% Loss(Train/Valid):0.123/0.722
+Epoch:105/119
+Accuracy(Train/Valid):99.97/85.93% Loss(Train/Valid):0.131/0.728
+Epoch:106/119
+Accuracy(Train/Valid):99.97/85.75% Loss(Train/Valid):0.132/0.717
+Epoch:107/119
+Accuracy(Train/Valid):99.97/85.78% Loss(Train/Valid):0.133/0.722
+Epoch:108/119
+Accuracy(Train/Valid):99.97/85.93% Loss(Train/Valid):0.142/0.720
+Model saved.
+Epoch:109/119
+Accuracy(Train/Valid):99.97/85.90% Loss(Train/Valid):0.123/0.726
+Epoch:110/119
+Accuracy(Train/Valid):99.97/85.93% Loss(Train/Valid):0.120/0.713
+Epoch:111/119
+Accuracy(Train/Valid):99.96/85.78% Loss(Train/Valid):0.124/0.718
+Epoch:112/119
+Accuracy(Train/Valid):99.97/85.84% Loss(Train/Valid):0.130/0.716
+Epoch:113/119
+Accuracy(Train/Valid):99.97/85.54% Loss(Train/Valid):0.119/0.722
+Epoch   114: reducing learning rate of group 0 to 6.2500e-04.
+Model saved.
+Epoch:114/119
+Accuracy(Train/Valid):99.97/85.81% Loss(Train/Valid):0.126/0.730
+Epoch:115/119
+Accuracy(Train/Valid):99.97/85.87% Loss(Train/Valid):0.232/0.725
+Epoch:116/119
+Accuracy(Train/Valid):99.97/85.96% Loss(Train/Valid):0.123/0.717
+Epoch:117/119
+Accuracy(Train/Valid):99.97/85.78% Loss(Train/Valid):0.135/0.719
+Epoch:118/119
+Accuracy(Train/Valid):99.97/85.84% Loss(Train/Valid):0.138/0.723
+Model saved.
+Epoch:119/119
+Accuracy(Train/Valid):99.97/85.87% Loss(Train/Valid):0.132/0.717
+Time: 166.68 mins
+Batch: 48, LR: 0.01, Sparsity: True, Penalty: 0.0001, Patience: 10
+Dataset: train_valid
+Sample Size: 6667
+Number of Class: 100
+Dataset: test
+Sample Size: 3333
+Number of Class: 100
+Create pretrained model with BN layer.
+Load the checkpoint
+Path:'D:/model/bestmodel0515_trial07a.pkl'
+Last epoch: 18 
+ValidAcc: 84.49%
+Use cuda: True
+Start training...
+[17, 30, 'M', 52, 68, 'M', 59, 68, 138, 'M', 150, 156, 162, 'M', 137, 142, 510]
+Time: 95.55 secs
+Epoch:0/149
+Accuracy(Train/Valid):99.69/1.05% Loss(Train/Valid):0.390/4.853
+Time: 82.36 secs
+Epoch:1/149
+Accuracy(Train/Valid):1.65/2.19% Loss(Train/Valid):4.585/4.684
+Time: 82.51 secs
+Epoch:2/149
+Accuracy(Train/Valid):2.29/2.28% Loss(Train/Valid):4.610/4.617
+[17, 30, 'M', 52, 68, 'M', 59, 68, 138, 'M', 150, 156, 161, 'M', 137, 143, 510]
+Epoch:3/149
+Accuracy(Train/Valid):3.04/2.19% Loss(Train/Valid):4.527/4.383
+[17, 30, 'M', 54, 67, 'M', 58, 68, 138, 'M', 150, 156, 161, 'M', 137, 143, 510]
+Epoch:4/149
+Accuracy(Train/Valid):3.72/3.51% Loss(Train/Valid):4.384/4.372
+[17, 30, 'M', 55, 66, 'M', 59, 65, 137, 'M', 150, 156, 161, 'M', 137, 146, 510]
+Epoch:5/149
+Accuracy(Train/Valid):4.53/5.49% Loss(Train/Valid):4.049/3.982
+[18, 31, 'M', 58, 65, 'M', 58, 62, 137, 'M', 148, 154, 161, 'M', 137, 150, 510]
+Epoch:6/149
+Accuracy(Train/Valid):9.73/7.11% Loss(Train/Valid):3.271/3.651
+[18, 31, 'M', 60, 64, 'M', 58, 61, 137, 'M', 148, 154, 161, 'M', 137, 150, 510]
+Epoch:7/149
+Accuracy(Train/Valid):16.06/13.77% Loss(Train/Valid):2.922/5.400
+[18, 35, 'M', 59, 63, 'M', 59, 59, 136, 'M', 148, 154, 161, 'M', 137, 150, 510]
+Epoch:8/149
+Accuracy(Train/Valid):22.06/15.84% Loss(Train/Valid):2.714/3.873
+[18, 35, 'M', 61, 62, 'M', 58, 59, 136, 'M', 148, 154, 161, 'M', 137, 150, 510]
+Model saved.
+Epoch:9/149
+Accuracy(Train/Valid):28.02/14.49% Loss(Train/Valid):2.578/2.848
+[18, 36, 'M', 60, 61, 'M', 60, 59, 135, 'M', 148, 154, 161, 'M', 137, 150, 510]
+Epoch:10/149
+Accuracy(Train/Valid):31.95/24.75% Loss(Train/Valid):2.430/2.040
+[18, 36, 'M', 61, 61, 'M', 60, 59, 134, 'M', 148, 154, 161, 'M', 137, 150, 510]
+Epoch:11/149
+Accuracy(Train/Valid):35.46/19.47% Loss(Train/Valid):2.293/3.887
+[18, 37, 'M', 62, 61, 'M', 60, 59, 134, 'M', 146, 154, 161, 'M', 137, 150, 510]
+Epoch:12/149
+Accuracy(Train/Valid):40.87/23.79% Loss(Train/Valid):2.137/3.202
+[18, 38, 'M', 61, 61, 'M', 60, 59, 134, 'M', 146, 154, 161, 'M', 137, 150, 510]
+Epoch:13/149
+Accuracy(Train/Valid):42.54/27.36% Loss(Train/Valid):2.247/2.301
+Epoch:14/149
+Accuracy(Train/Valid):45.60/38.37% Loss(Train/Valid):1.829/1.259
+[18, 38, 'M', 62, 61, 'M', 60, 59, 134, 'M', 145, 154, 161, 'M', 137, 150, 510]
+Epoch:15/149
+Accuracy(Train/Valid):48.60/37.17% Loss(Train/Valid):2.020/1.172
+[18, 39, 'M', 61, 61, 'M', 60, 59, 134, 'M', 145, 154, 161, 'M', 137, 150, 510]
+Epoch:16/149
+Accuracy(Train/Valid):51.16/44.73% Loss(Train/Valid):1.836/1.476
+[18, 39, 'M', 62, 61, 'M', 60, 59, 134, 'M', 145, 154, 161, 'M', 136, 150, 510]
+Epoch:17/149
+Accuracy(Train/Valid):52.81/46.71% Loss(Train/Valid):2.005/1.097
+[18, 40, 'M', 61, 61, 'M', 60, 59, 134, 'M', 145, 154, 161, 'M', 136, 150, 510]
+Epoch:18/149
+Accuracy(Train/Valid):55.35/39.90% Loss(Train/Valid):1.526/2.519
+Model saved.
+Epoch:19/149
+Accuracy(Train/Valid):56.67/46.44% Loss(Train/Valid):1.555/1.426
+[18, 39, 'M', 62, 61, 'M', 60, 59, 134, 'M', 145, 154, 161, 'M', 136, 150, 510]
+Epoch:20/149
+Accuracy(Train/Valid):59.19/54.64% Loss(Train/Valid):1.716/1.141
+[18, 39, 'M', 63, 61, 'M', 60, 59, 133, 'M', 145, 154, 161, 'M', 136, 150, 510]
+Epoch:21/149
+Accuracy(Train/Valid):59.86/48.42% Loss(Train/Valid):1.392/1.036
+Epoch:22/149
+Accuracy(Train/Valid):62.52/49.86% Loss(Train/Valid):1.294/1.263
+[18, 39, 'M', 64, 61, 'M', 60, 59, 133, 'M', 145, 154, 160, 'M', 136, 150, 510]
+Epoch:23/149
+Accuracy(Train/Valid):63.43/59.02% Loss(Train/Valid):1.387/1.177
+[18, 40, 'M', 63, 61, 'M', 60, 59, 133, 'M', 145, 154, 160, 'M', 136, 150, 510]
+Model saved.
+Epoch:24/149
+Accuracy(Train/Valid):65.07/54.88% Loss(Train/Valid):1.479/1.215
+Epoch:25/149
+Accuracy(Train/Valid):66.97/58.00% Loss(Train/Valid):1.061/0.690
+Epoch:26/149
+Accuracy(Train/Valid):67.75/60.73% Loss(Train/Valid):1.178/0.858
+Epoch:27/149
+Accuracy(Train/Valid):69.19/60.67% Loss(Train/Valid):1.476/0.986
+Epoch:28/149
+Accuracy(Train/Valid):70.96/55.72% Loss(Train/Valid):1.255/1.750
+Model saved.
+Epoch:29/149
+Accuracy(Train/Valid):70.99/56.50% Loss(Train/Valid):1.279/1.261
+Epoch:30/149
+Accuracy(Train/Valid):72.75/59.83% Loss(Train/Valid):1.249/0.692
+Epoch:31/149
+Accuracy(Train/Valid):73.65/65.26% Loss(Train/Valid):1.048/0.891
+Epoch:32/149
+Accuracy(Train/Valid):73.33/67.00% Loss(Train/Valid):1.079/0.726
+Epoch:33/149
+Accuracy(Train/Valid):75.70/61.03% Loss(Train/Valid):1.214/0.721
+Model saved.
+Epoch:34/149
+Accuracy(Train/Valid):75.90/62.35% Loss(Train/Valid):0.953/1.151
+[18, 41, 'M', 63, 61, 'M', 60, 59, 133, 'M', 145, 154, 159, 'M', 136, 150, 510]
+Epoch:35/149
+Accuracy(Train/Valid):75.91/67.36% Loss(Train/Valid):0.855/0.840
+Epoch:36/149
+Accuracy(Train/Valid):77.19/62.14% Loss(Train/Valid):0.925/0.748
+Epoch:37/149
+Accuracy(Train/Valid):78.03/66.25% Loss(Train/Valid):1.261/0.972
+Epoch:38/149
+Accuracy(Train/Valid):79.15/61.12% Loss(Train/Valid):0.954/0.611
+[18, 41, 'M', 64, 61, 'M', 60, 59, 133, 'M', 145, 153, 159, 'M', 136, 150, 510]
+Epoch:39/149
+Accuracy(Train/Valid):79.36/68.35% Loss(Train/Valid):1.033/0.784
+Epoch:40/149
+Accuracy(Train/Valid):80.23/69.22% Loss(Train/Valid):0.781/0.563
+Epoch:41/149
+Accuracy(Train/Valid):81.66/66.85% Loss(Train/Valid):0.706/0.953
+Epoch:42/149
+Accuracy(Train/Valid):81.24/69.46% Loss(Train/Valid):0.873/0.860
+Epoch:43/149
+Accuracy(Train/Valid):81.97/68.98% Loss(Train/Valid):0.869/0.901
+Model saved.
+Epoch:44/149
+Accuracy(Train/Valid):82.36/65.05% Loss(Train/Valid):0.654/0.543
+[18, 41, 'M', 63, 62, 'M', 60, 59, 133, 'M', 145, 153, 159, 'M', 136, 150, 510]
+Epoch:45/149
+Accuracy(Train/Valid):82.32/70.87% Loss(Train/Valid):0.973/0.745
+Epoch:46/149
+Accuracy(Train/Valid):83.58/70.72% Loss(Train/Valid):0.748/0.799
+[18, 42, 'M', 63, 62, 'M', 60, 59, 133, 'M', 145, 153, 158, 'M', 136, 150, 510]
+Epoch:47/149
+Accuracy(Train/Valid):83.85/68.92% Loss(Train/Valid):0.762/0.641
+Epoch:48/149
+Accuracy(Train/Valid):84.49/65.29% Loss(Train/Valid):0.866/0.565
+[18, 42, 'M', 65, 62, 'M', 60, 59, 133, 'M', 144, 152, 158, 'M', 136, 150, 510]
+Model saved.
+Epoch:49/149
+Accuracy(Train/Valid):84.34/70.30% Loss(Train/Valid):0.623/1.163
+Epoch:50/149
+Accuracy(Train/Valid):86.02/70.72% Loss(Train/Valid):0.783/0.587
+Epoch:51/149
+Accuracy(Train/Valid):86.56/69.40% Loss(Train/Valid):0.769/0.601
+[18, 42, 'M', 63, 64, 'M', 60, 59, 133, 'M', 144, 152, 158, 'M', 136, 150, 510]
+Epoch:52/149
+Accuracy(Train/Valid):86.10/72.19% Loss(Train/Valid):0.593/0.576
+[18, 42, 'M', 65, 63, 'M', 60, 59, 133, 'M', 144, 151, 158, 'M', 136, 150, 510]
+Epoch:53/149
+Accuracy(Train/Valid):87.27/70.78% Loss(Train/Valid):0.638/0.634
+[18, 43, 'M', 64, 63, 'M', 60, 59, 133, 'M', 144, 151, 158, 'M', 136, 150, 510]
+Model saved.
+Epoch:54/149
+Accuracy(Train/Valid):86.92/66.34% Loss(Train/Valid):0.758/0.794
+Epoch:55/149
+Accuracy(Train/Valid):87.37/72.19% Loss(Train/Valid):0.450/0.686
+Epoch:56/149
+Accuracy(Train/Valid):88.47/71.80% Loss(Train/Valid):0.714/0.448
+Epoch:57/149
+Accuracy(Train/Valid):86.98/71.17% Loss(Train/Valid):0.662/1.142
+[18, 43, 'M', 65, 63, 'M', 60, 59, 133, 'M', 144, 151, 158, 'M', 135, 150, 510]
+Epoch:58/149
+Accuracy(Train/Valid):87.66/73.57% Loss(Train/Valid):0.706/0.717
+[18, 43, 'M', 64, 64, 'M', 60, 59, 133, 'M', 144, 151, 158, 'M', 135, 150, 510]
+Model saved.
+Epoch:59/149
+Accuracy(Train/Valid):88.05/73.15% Loss(Train/Valid):0.480/0.723
+Epoch:60/149
+Accuracy(Train/Valid):88.98/74.14% Loss(Train/Valid):0.623/0.814
+[18, 43, 'M', 64, 62, 'M', 60, 60, 133, 'M', 144, 151, 158, 'M', 135, 151, 510]
+Epoch:61/149
+Accuracy(Train/Valid):89.01/71.11% Loss(Train/Valid):0.691/0.659
+[18, 43, 'M', 64, 64, 'M', 60, 59, 133, 'M', 144, 151, 158, 'M', 135, 150, 510]
+Epoch:62/149
+Accuracy(Train/Valid):90.24/74.08% Loss(Train/Valid):0.435/0.845
+[18, 43, 'M', 64, 65, 'M', 60, 59, 133, 'M', 144, 151, 157, 'M', 135, 150, 510]
+Epoch:63/149
+Accuracy(Train/Valid):90.28/75.85% Loss(Train/Valid):0.482/0.573
+Model saved.
+Epoch:64/149
+Accuracy(Train/Valid):89.86/74.29% Loss(Train/Valid):0.699/0.621
+[19, 44, 'M', 65, 63, 'M', 60, 59, 133, 'M', 144, 151, 156, 'M', 135, 150, 510]
+Epoch:65/149
+Accuracy(Train/Valid):90.34/73.42% Loss(Train/Valid):0.491/0.635
+[18, 44, 'M', 65, 64, 'M', 60, 59, 133, 'M', 144, 151, 156, 'M', 135, 150, 510]
+Epoch:66/149
+Accuracy(Train/Valid):90.99/72.10% Loss(Train/Valid):0.353/0.618
+[19, 43, 'M', 65, 64, 'M', 60, 59, 133, 'M', 144, 151, 156, 'M', 135, 150, 510]
+Epoch:67/149
+Accuracy(Train/Valid):91.54/71.71% Loss(Train/Valid):0.481/0.654
+[19, 44, 'M', 65, 63, 'M', 60, 59, 133, 'M', 144, 151, 156, 'M', 135, 150, 510]
+Epoch:68/149
+Accuracy(Train/Valid):91.83/74.56% Loss(Train/Valid):0.597/0.916
+[19, 43, 'M', 66, 63, 'M', 60, 59, 133, 'M', 144, 151, 156, 'M', 135, 150, 510]
+Model saved.
+Epoch:69/149
+Accuracy(Train/Valid):92.62/72.40% Loss(Train/Valid):0.595/0.588
+[19, 43, 'M', 65, 64, 'M', 60, 59, 134, 'M', 144, 151, 156, 'M', 134, 150, 510]
+Epoch:70/149
+Accuracy(Train/Valid):90.94/75.40% Loss(Train/Valid):0.453/1.070
+Epoch:71/149
+Accuracy(Train/Valid):92.43/73.93% Loss(Train/Valid):0.361/0.879
+[19, 43, 'M', 67, 63, 'M', 60, 59, 133, 'M', 144, 151, 156, 'M', 134, 150, 510]
+Epoch:72/149
+Accuracy(Train/Valid):92.49/74.74% Loss(Train/Valid):0.398/0.727
+[19, 43, 'M', 65, 65, 'M', 60, 59, 133, 'M', 144, 151, 156, 'M', 134, 150, 510]
+Epoch:73/149
+Accuracy(Train/Valid):92.28/76.27% Loss(Train/Valid):0.444/0.668
+[19, 44, 'M', 65, 64, 'M', 60, 59, 133, 'M', 144, 151, 156, 'M', 134, 150, 510]
+Model saved.
+Epoch:74/149
+Accuracy(Train/Valid):93.21/74.47% Loss(Train/Valid):0.442/0.558
+[19, 43, 'M', 66, 64, 'M', 60, 59, 133, 'M', 144, 151, 156, 'M', 134, 150, 510]
+Epoch:75/149
+Accuracy(Train/Valid):93.55/75.85% Loss(Train/Valid):0.393/0.913
+[20, 45, 'M', 67, 64, 'M', 60, 59, 133, 'M', 144, 151, 155, 'M', 133, 148, 510]
+Epoch:76/149
+Accuracy(Train/Valid):92.82/74.62% Loss(Train/Valid):0.279/0.823
+[19, 44, 'M', 68, 65, 'M', 60, 59, 133, 'M', 144, 151, 155, 'M', 133, 148, 510]
+Epoch:77/149
+Accuracy(Train/Valid):93.73/75.25% Loss(Train/Valid):0.357/0.761
+[19, 45, 'M', 68, 67, 'M', 61, 59, 134, 'M', 143, 150, 155, 'M', 132, 146, 510]
+Epoch:78/149
+Accuracy(Train/Valid):92.94/75.76% Loss(Train/Valid):0.515/0.525
+[19, 44, 'M', 68, 66, 'M', 61, 60, 134, 'M', 143, 150, 155, 'M', 133, 146, 510]
+Epoch:79/149
+Accuracy(Train/Valid):93.90/77.50% Loss(Train/Valid):0.643/0.484
+[19, 44, 'M', 68, 66, 'M', 61, 59, 134, 'M', 143, 150, 156, 'M', 133, 146, 510]
+Epoch:80/149
+Accuracy(Train/Valid):93.90/76.03% Loss(Train/Valid):0.402/0.852
+[20, 44, 'M', 70, 66, 'M', 61, 59, 132, 'M', 144, 150, 155, 'M', 132, 146, 510]
+Epoch:81/149
+Accuracy(Train/Valid):93.66/77.08% Loss(Train/Valid):0.456/0.644
+[20, 44, 'M', 71, 65, 'M', 61, 59, 132, 'M', 143, 150, 155, 'M', 132, 147, 510]
+Epoch:82/149
+Accuracy(Train/Valid):94.32/76.39% Loss(Train/Valid):0.353/0.456
+[19, 44, 'M', 71, 66, 'M', 60, 59, 132, 'M', 143, 151, 155, 'M', 132, 147, 510]
+Epoch:83/149
+Accuracy(Train/Valid):94.95/76.15% Loss(Train/Valid):0.399/0.685
+[19, 44, 'M', 71, 68, 'M', 60, 61, 131, 'M', 143, 149, 153, 'M', 132, 148, 510]
+Model saved.
+Epoch:84/149
+Accuracy(Train/Valid):94.03/73.90% Loss(Train/Valid):0.310/0.531
+[19, 44, 'M', 72, 69, 'M', 60, 60, 132, 'M', 144, 148, 153, 'M', 132, 146, 510]
+Epoch:85/149
+Accuracy(Train/Valid):94.98/76.69% Loss(Train/Valid):0.334/0.653
+[19, 44, 'M', 73, 68, 'M', 60, 60, 131, 'M', 144, 148, 153, 'M', 133, 146, 510]
+Epoch:86/149
+Accuracy(Train/Valid):95.40/74.47% Loss(Train/Valid):0.502/0.793
+[19, 44, 'M', 72, 69, 'M', 60, 59, 132, 'M', 143, 148, 153, 'M', 133, 147, 510]
+Epoch:87/149
+Accuracy(Train/Valid):95.01/77.44% Loss(Train/Valid):0.334/0.371
+[20, 44, 'M', 72, 70, 'M', 60, 59, 132, 'M', 143, 149, 152, 'M', 132, 146, 510]
+Epoch:88/149
+Accuracy(Train/Valid):95.43/76.54% Loss(Train/Valid):0.438/0.416
+[19, 44, 'M', 73, 72, 'M', 60, 59, 129, 'M', 145, 149, 151, 'M', 132, 146, 510]
+Model saved.
+Epoch:89/149
+Accuracy(Train/Valid):95.35/76.72% Loss(Train/Valid):0.292/0.679
+[19, 44, 'M', 74, 72, 'M', 60, 60, 128, 'M', 143, 150, 150, 'M', 132, 147, 510]
+Epoch    90: reducing learning rate of group 0 to 5.0000e-03.
+Epoch:90/149
+Accuracy(Train/Valid):95.17/76.81% Loss(Train/Valid):0.366/0.820
+[19, 44, 'M', 75, 72, 'M', 60, 59, 128, 'M', 143, 150, 150, 'M', 132, 147, 510]
+Epoch:91/149
+Accuracy(Train/Valid):96.87/80.50% Loss(Train/Valid):0.309/0.419
+[19, 44, 'M', 74, 72, 'M', 60, 59, 129, 'M', 143, 150, 150, 'M', 132, 147, 510]
+Epoch:92/149
+Accuracy(Train/Valid):97.30/80.41% Loss(Train/Valid):0.306/0.480
+[19, 44, 'M', 74, 72, 'M', 60, 59, 130, 'M', 143, 150, 150, 'M', 132, 146, 510]
+Epoch:93/149
+Accuracy(Train/Valid):97.26/80.23% Loss(Train/Valid):0.216/0.469
+[19, 44, 'M', 75, 71, 'M', 60, 59, 128, 'M', 143, 150, 150, 'M', 132, 148, 510]
+Model saved.
+Epoch:94/149
+Accuracy(Train/Valid):97.68/80.23% Loss(Train/Valid):0.204/0.451
+[19, 44, 'M', 74, 71, 'M', 60, 59, 128, 'M', 143, 151, 150, 'M', 132, 148, 510]
+Epoch:95/149
+Accuracy(Train/Valid):97.69/80.59% Loss(Train/Valid):0.256/0.475
+Epoch:96/14981
+Accuracy(Train/Valid):97.66/80.29% Loss(Train/Valid):0.201/0.403
+[19, 44, 'M', 74, 70, 'M', 60, 59, 128, 'M', 142, 152, 150, 'M', 133, 148, 510]
+Epoch:97/149
+Accuracy(Train/Valid):98.08/80.02% Loss(Train/Valid):0.231/0.425
+[19, 44, 'M', 75, 70, 'M', 60, 59, 128, 'M', 142, 152, 150, 'M', 132, 148, 510]
+Epoch:98/149
+Accuracy(Train/Valid):98.34/80.77% Loss(Train/Valid):0.210/0.390
+[19, 43, 'M', 75, 70, 'M', 60, 59, 128, 'M', 143, 152, 150, 'M', 133, 147, 510]
+Model saved.
+Epoch:99/149
+Accuracy(Train/Valid):97.99/80.35% Loss(Train/Valid):0.215/0.370
+[19, 43, 'M', 74, 71, 'M', 60, 59, 128, 'M', 142, 151, 150, 'M', 133, 149, 510]
+Epoch:100/149
+Accuracy(Train/Valid):98.10/80.89% Loss(Train/Valid):0.179/0.468
+[19, 43, 'M', 75, 71, 'M', 60, 59, 128, 'M', 142, 151, 150, 'M', 132, 149, 510]
+Epoch:101/149
+Accuracy(Train/Valid):98.28/80.08% Loss(Train/Valid):0.214/0.532
+[19, 43, 'M', 75, 71, 'M', 60, 59, 129, 'M', 142, 150, 151, 'M', 132, 148, 510]
+Epoch:102/149
+Accuracy(Train/Valid):98.25/79.84% Loss(Train/Valid):0.229/0.411
+[19, 43, 'M', 76, 70, 'M', 60, 59, 128, 'M', 142, 151, 151, 'M', 132, 148, 510]
+Epoch:103/149
+Accuracy(Train/Valid):98.38/80.29% Loss(Train/Valid):0.318/0.487
+[19, 43, 'M', 75, 70, 'M', 60, 59, 129, 'M', 142, 150, 151, 'M', 132, 149, 510]
+Model saved.
+Epoch:104/149
+Accuracy(Train/Valid):98.44/80.62% Loss(Train/Valid):0.205/0.432
+[19, 43, 'M', 74, 70, 'M', 60, 60, 128, 'M', 142, 150, 151, 'M', 133, 149, 510]
+Epoch:105/149
+Accuracy(Train/Valid):98.52/80.32% Loss(Train/Valid):0.281/0.410
+[19, 43, 'M', 75, 70, 'M', 61, 59, 128, 'M', 143, 149, 151, 'M', 133, 148, 510]
+Epoch:106/149
+Accuracy(Train/Valid):98.52/80.68% Loss(Train/Valid):0.216/0.420
+[19, 43, 'M', 75, 70, 'M', 60, 59, 128, 'M', 143, 149, 151, 'M', 133, 149, 510]
+Epoch:107/149
+Accuracy(Train/Valid):98.68/80.83% Loss(Train/Valid):0.327/0.401
+[19, 43, 'M', 75, 70, 'M', 60, 59, 128, 'M', 142, 149, 151, 'M', 133, 150, 510]
+Epoch:108/149
+Accuracy(Train/Valid):98.61/80.47% Loss(Train/Valid):0.251/0.426
+[19, 44, 'M', 75, 70, 'M', 60, 59, 128, 'M', 142, 149, 152, 'M', 133, 148, 510]
+Model saved.
+Epoch:109/149
+Accuracy(Train/Valid):98.77/80.56% Loss(Train/Valid):0.169/0.458
+[19, 44, 'M', 74, 70, 'M', 60, 59, 128, 'M', 142, 150, 152, 'M', 132, 149, 510]
+Epoch:110/149
+Accuracy(Train/Valid):98.76/79.90% Loss(Train/Valid):0.179/0.442
+[19, 43, 'M', 73, 70, 'M', 60, 59, 128, 'M', 142, 149, 151, 'M', 132, 153, 510]
+Epoch   111: reducing learning rate of group 0 to 2.5000e-03.
+Epoch:111/149
+Accuracy(Train/Valid):98.55/80.56% Loss(Train/Valid):0.267/0.436
+Epoch:112/149
+Accuracy(Train/Valid):98.98/80.62% Loss(Train/Valid):0.219/0.457
+[19, 43, 'M', 73, 70, 'M', 60, 59, 128, 'M', 143, 149, 150, 'M', 132, 153, 510]
+Epoch:113/149
+Accuracy(Train/Valid):98.79/80.83% Loss(Train/Valid):0.168/0.447
+Epoch:114/149
+Accuracy(Train/Valid):98.97/80.95% Loss(Train/Valid):0.198/0.469
+[19, 43, 'M', 73, 70, 'M', 60, 59, 128, 'M', 143, 149, 150, 'M', 133, 152, 510]
+Epoch:115/149
+Accuracy(Train/Valid):99.09/80.77% Loss(Train/Valid):0.310/0.449
+[19, 43, 'M', 73, 70, 'M', 60, 59, 128, 'M', 142, 149, 150, 'M', 133, 153, 510]
+Epoch:116/149
+Accuracy(Train/Valid):98.97/80.71% Loss(Train/Valid):0.172/0.428
+[19, 43, 'M', 73, 70, 'M', 60, 59, 128, 'M', 142, 149, 150, 'M', 132, 154, 510]
+Epoch:117/149
+Accuracy(Train/Valid):99.03/80.77% Loss(Train/Valid):0.227/0.438
+Epoch:118/149
+Accuracy(Train/Valid):99.09/80.71% Loss(Train/Valid):0.350/0.467
+[20, 43, 'M', 73, 70, 'M', 60, 59, 128, 'M', 142, 149, 150, 'M', 133, 152, 510]
+Model saved.
+Epoch:119/149
+Accuracy(Train/Valid):99.12/80.74% Loss(Train/Valid):0.194/0.432
+[20, 43, 'M', 73, 70, 'M', 60, 59, 128, 'M', 142, 149, 150, 'M', 132, 153, 510]
+Epoch:120/149
+Accuracy(Train/Valid):99.12/80.56% Loss(Train/Valid):0.177/0.459
+Epoch:121/149
+Accuracy(Train/Valid):99.07/80.77% Loss(Train/Valid):0.204/0.428
+Epoch:122/149
+Accuracy(Train/Valid):99.10/80.77% Loss(Train/Valid):0.268/0.467
+Epoch:123/149
+Accuracy(Train/Valid):99.03/81.13% Loss(Train/Valid):0.180/0.473
+[20, 43, 'M', 74, 70, 'M', 60, 59, 128, 'M', 142, 148, 150, 'M', 132, 153, 510]
+Model saved.
+Epoch:124/149
+Accuracy(Train/Valid):99.12/80.68% Loss(Train/Valid):0.179/0.462
+Epoch:125/149
+Accuracy(Train/Valid):99.06/80.77% Loss(Train/Valid):0.185/0.457
+[20, 43, 'M', 74, 70, 'M', 60, 59, 128, 'M', 142, 148, 150, 'M', 133, 152, 510]
+Epoch:126/149
+Accuracy(Train/Valid):99.31/81.04% Loss(Train/Valid):0.156/0.460
+[19, 43, 'M', 75, 70, 'M', 60, 59, 128, 'M', 142, 148, 150, 'M', 132, 153, 510]
+Epoch:127/149
+Accuracy(Train/Valid):99.07/81.28% Loss(Train/Valid):0.214/0.492
+[19, 43, 'M', 74, 70, 'M', 60, 59, 128, 'M', 144, 148, 150, 'M', 132, 152, 510]
+Epoch:128/149
+Accuracy(Train/Valid):99.24/80.47% Loss(Train/Valid):0.199/0.469
+[19, 43, 'M', 73, 70, 'M', 60, 59, 128, 'M', 144, 149, 149, 'M', 132, 153, 510]
+Model saved.
+Epoch:129/149
+Accuracy(Train/Valid):99.22/81.19% Loss(Train/Valid):0.166/0.467
+[19, 43, 'M', 73, 70, 'M', 60, 59, 128, 'M', 143, 148, 148, 'M', 132, 156, 510]
+Epoch:130/149
+Accuracy(Train/Valid):99.27/80.98% Loss(Train/Valid):0.158/0.493
+[19, 43, 'M', 73, 70, 'M', 60, 59, 128, 'M', 143, 149, 146, 'M', 133, 156, 510]
+Epoch:131/149
+Accuracy(Train/Valid):99.30/80.68% Loss(Train/Valid):0.180/0.481
+[19, 43, 'M', 73, 70, 'M', 60, 59, 128, 'M', 143, 148, 146, 'M', 134, 156, 510]
+Epoch:132/149
+Accuracy(Train/Valid):99.28/81.28% Loss(Train/Valid):0.156/0.486
+[19, 43, 'M', 74, 70, 'M', 60, 59, 128, 'M', 143, 149, 146, 'M', 133, 155, 510]
+Epoch:133/149
+Accuracy(Train/Valid):99.25/81.25% Loss(Train/Valid):0.175/0.486
+[20, 43, 'M', 75, 70, 'M', 60, 59, 129, 'M', 142, 148, 146, 'M', 133, 154, 510]
+Model saved.
+Epoch:134/149
+Accuracy(Train/Valid):99.28/80.68% Loss(Train/Valid):0.184/0.508
